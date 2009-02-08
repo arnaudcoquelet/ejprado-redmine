@@ -1,0 +1,11 @@
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/svn/!svn/ver/2019/trunk/lib/redmine/default_data
+END
+loader.rb
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/!svn/ver/2019/trunk/lib/redmine/default_data/loader.rb
+END

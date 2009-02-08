@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/!svn/ver/1951/trunk/lib/generators/redmine_plugin_controller/templates
+END
+view.html.erb
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/!svn/ver/1786/trunk/lib/generators/redmine_plugin_controller/templates/view.html.erb
+END
+helper.rb.erb
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/!svn/ver/1951/trunk/lib/generators/redmine_plugin_controller/templates/helper.rb.erb
+END
+functional_test.rb.erb
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/!svn/ver/1951/trunk/lib/generators/redmine_plugin_controller/templates/functional_test.rb.erb
+END
+controller.rb.erb
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/!svn/ver/1951/trunk/lib/generators/redmine_plugin_controller/templates/controller.rb.erb
+END

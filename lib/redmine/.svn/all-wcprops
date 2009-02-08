@@ -1,0 +1,95 @@
+K 25
+svn:wc:ra_dav:version-url
+V 36
+/svn/!svn/ver/2053/trunk/lib/redmine
+END
+platform.rb
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/svn/!svn/ver/1753/trunk/lib/redmine/platform.rb
+END
+themes.rb
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/svn/!svn/ver/1047/trunk/lib/redmine/themes.rb
+END
+version.rb
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/svn/!svn/ver/2042/trunk/lib/redmine/version.rb
+END
+imap.rb
+K 25
+svn:wc:ra_dav:version-url
+V 44
+/svn/!svn/ver/1572/trunk/lib/redmine/imap.rb
+END
+mime_type.rb
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/svn/!svn/ver/1274/trunk/lib/redmine/mime_type.rb
+END
+info.rb
+K 25
+svn:wc:ra_dav:version-url
+V 43
+/svn/!svn/ver/835/trunk/lib/redmine/info.rb
+END
+activity.rb
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/svn/!svn/ver/1702/trunk/lib/redmine/activity.rb
+END
+access_keys.rb
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/!svn/ver/1081/trunk/lib/redmine/access_keys.rb
+END
+wiki_formatting.rb
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/!svn/ver/1955/trunk/lib/redmine/wiki_formatting.rb
+END
+plugin.rb
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/svn/!svn/ver/2042/trunk/lib/redmine/plugin.rb
+END
+menu_manager.rb
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/!svn/ver/2022/trunk/lib/redmine/menu_manager.rb
+END
+hook.rb
+K 25
+svn:wc:ra_dav:version-url
+V 44
+/svn/!svn/ver/2005/trunk/lib/redmine/hook.rb
+END
+access_control.rb
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/!svn/ver/1907/trunk/lib/redmine/access_control.rb
+END
+core_ext.rb
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/svn/!svn/ver/1361/trunk/lib/redmine/core_ext.rb
+END
+unified_diff.rb
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/!svn/ver/1895/trunk/lib/redmine/unified_diff.rb
+END

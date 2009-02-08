@@ -1,0 +1,59 @@
+K 25
+svn:wc:ra_dav:version-url
+V 38
+/svn/!svn/ver/1524/trunk/lib/SVG/Graph
+END
+Pie.rb
+K 25
+svn:wc:ra_dav:version-url
+V 44
+/svn/!svn/ver/380/trunk/lib/SVG/Graph/Pie.rb
+END
+BarHorizontal.rb
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/!svn/ver/380/trunk/lib/SVG/Graph/BarHorizontal.rb
+END
+Plot.rb
+K 25
+svn:wc:ra_dav:version-url
+V 45
+/svn/!svn/ver/380/trunk/lib/SVG/Graph/Plot.rb
+END
+BarBase.rb
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/svn/!svn/ver/380/trunk/lib/SVG/Graph/BarBase.rb
+END
+Graph.rb
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/svn/!svn/ver/1524/trunk/lib/SVG/Graph/Graph.rb
+END
+Bar.rb
+K 25
+svn:wc:ra_dav:version-url
+V 44
+/svn/!svn/ver/380/trunk/lib/SVG/Graph/Bar.rb
+END
+Line.rb
+K 25
+svn:wc:ra_dav:version-url
+V 45
+/svn/!svn/ver/380/trunk/lib/SVG/Graph/Line.rb
+END
+TimeSeries.rb
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/!svn/ver/380/trunk/lib/SVG/Graph/TimeSeries.rb
+END
+Schedule.rb
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/svn/!svn/ver/380/trunk/lib/SVG/Graph/Schedule.rb
+END
