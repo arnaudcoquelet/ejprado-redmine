@@ -1,0 +1,47 @@
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/!svn/ver/1508/trunk/test/fixtures/repositories
+END
+darcs_repository.tar.gz
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/!svn/ver/1236/trunk/test/fixtures/repositories/darcs_repository.tar.gz
+END
+subversion_repository.dump.gz
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/!svn/ver/951/trunk/test/fixtures/repositories/subversion_repository.dump.gz
+END
+bazaar_repository.tar.gz
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/!svn/ver/951/trunk/test/fixtures/repositories/bazaar_repository.tar.gz
+END
+git_repository.tar.gz
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/!svn/ver/1236/trunk/test/fixtures/repositories/git_repository.tar.gz
+END
+mercurial_repository.tar.gz
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/!svn/ver/991/trunk/test/fixtures/repositories/mercurial_repository.tar.gz
+END
+filesystem_repository.tar.gz
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/!svn/ver/1508/trunk/test/fixtures/repositories/filesystem_repository.tar.gz
+END
+cvs_repository.tar.gz
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/!svn/ver/987/trunk/test/fixtures/repositories/cvs_repository.tar.gz
+END

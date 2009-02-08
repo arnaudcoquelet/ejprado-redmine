@@ -1,0 +1,64 @@
+TODO:
+
+//////////////////////////////////////////////////////////////////////////////////////
+V2
+--
+
+1- TRACKER:	
+	Crear "Cancelacion Hipoteca"
+	Anadir Ceck List de Documentos        -- OK, check ui
+	Anadir Campos Comprador y Vendedor    -- OK
+	Crear Step "Suspendido" y "Anulado"   -- OK
+	
+	
+2- GASTOS:
+	Cambiar campo Actividad -> Gasto      -- OK
+
+3- FACTURACION:
+	Acceso para facturaccion
+	Menus facturaccion
+	Poner Campo Facturado
+
+4- CLIENT view:
+	Crear vista para ingreo del Cliente de un caso : solo datos cliente + info caso  -- OK
+	Se inicia tramite cuando se asigna a un tramitador
+
+
+//////////////////////////////////////////////////////////////////////////////////////
+V1
+--
+
+1- TRACKER :
+	Duracion del Caso: crear campo duracion en TRACKER (OK)
+
+2- ISSUE TYPE :
+	Crear campo : % Progression      (OK)
+	Crear campo : Duracion           (OK) 
+
+	Tipos:
+	compraventa
+	compraventa e hipoteca
+	adjudicaci�n
+	hipoteca
+	levantamiento de hipoteca
+	restituci�n fiduciaria
+	
+	
+3- PROJECT :
+	Crear campo : @ de correo  (OK)
+	Borrar campo: Members      (OK)
+	
+4- ISSUE :
+	Borrar campo: Assigned to para level cliente (OK para todos)
+	Crear campo : Step_Due_To (fecha de fin del step prevista) (OK)
+	Function    : Add Working Day(s) if sunday add 1 day, if saturday add 2 days (OK)
+	Function    : Get Due to date from all the steps of the workflow. ??? (NO HAY COMO)
+	Function    : Update Issues Gravity                                    (OK)
+	
+	List        : # Issue, Cedula, Apellido, Tipo, Subject, Step, %Progression, Due to, Estado (Good, Error, TimeOverPassed,Paused,Closed
+	Notas       : Crear una lista de notas
+	Estado      : Crear una lista de cambio de estado
+	Color       : Red = date > due to (1); Green = date < due to step (3-5); Yellow = date > due to step (2); Blue = status closed (0)  (OK)
+
+5- REPORT :
+	Email       : Send all project status by email each day

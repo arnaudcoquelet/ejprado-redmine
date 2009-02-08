@@ -1,0 +1,18 @@
+<h1><%= link_to "#{issue.tracker.name} ##{issue.id}: #{issue.subject}", issue_url %></h1>
+
+<ul>
+<li><%=l(:field_client_buyer_name)%>: <%= issue.client_buyer_name %></li>
+<li><%=l(:field_client_buyer_firstname)%>: <%= issue.client_buyer_firstname %></li>
+<li><%=l(:field_client_buyer_idnumber)%>: <%= issue.client_buyer_idnumber %></li>
+<li><%=l(:field_status)%>: <%= issue.status %></li>
+<li><%=l(:field_done_ratio)%>: <%= issue.done_ratio.to_s %></li>
+<li><%=l(:field_due_date)%>: <%= issue.due_date %></li>
+
+<% issue.custom_values.each do |c| %>
+  <li><%= c.custom_field.name %>: <%= show_value(c) %></li>
+<% end %>
+
+<li><%=l(:field_description)%>: <%= textilizable(issue, :description, :only_path => false) %></li>
+</ul>
+
+

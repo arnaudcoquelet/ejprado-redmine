@@ -1,0 +1,38 @@
+<% if issues && issues.any? %>
+  <% form_tag({}) do %>
+    <table class="list issues">
+      <thead><tr>
+          <th> # </th>
+          <th> <%=  l(:field_client_buyer_idnumber)   %> </th>
+          <th> <%=  l(:field_client_buyer_name)  %> </th>
+          <th> <%=  l(:field_client_buyer_firstname)  %> </th>
+          <th> <%=  l(:field_tracker) %> </th>
+          <th> <%=  l(:field_subject) %> </th>
+          <th> <%=  l(:field_status)  %> </th>
+          <th> <%=  l(:field_start_date)   %> </th>
+          <th> <%=  l(:field_due_date)   %> </th>
+          <th> <%=  l(:field_done_ratio) %> </th>
+      </tr></thead>
+      <tbody>
+        <% for issue in issues %>
+          <tr id="issue-<%= issue.set_qualification();issue.issue_progress %>" class="issue hascontextmenu <%= cycle('odd', 'even') %> <%= "status-#{issue.status.position} priority-#{issue.priority.position}" %>">
+            <td><%= issue.id.to_s %></td>
+            <td><%= issue.client_buyer_idnumber %></td>
+            <td><%= issue.client_buyer_name %></td>
+            <td><%= issue.client_firstname %></td>
+            <td><%= issue.tracker.name %></td>
+            <td class="subject">
+              <%= link_to h(issue.subject), :controller => 'issues', :action => 'show', :id => issue %>
+            </td>
+            <td><%= issue.status.name %></td>
+            <td><%= format_date(issue.start_date) %></td>
+            <td><%= format_date(issue.due_date) %></td>
+            <td><%= progress_bar(issue.done_ratio, :width => '80px') %></td>
+          </tr>
+        <% end %>
+      </tbody>
+    </table>
+  <% end %>
+<% else %>
+  <p class="nodata"><%= l(:label_no_data) %></p>
+<% end %>

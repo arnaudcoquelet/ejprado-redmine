@@ -1,0 +1,14 @@
+<%= "#{issue.tracker.name} ##{issue.id}: #{issue.subject}" %>
+<%= issue_url %>
+
+<%=l(:field_client_buyer_name)%>: <%= issue.client_buyer_name %>
+<%=l(:field_client_buyer_firstname)%>: <%= issue.client_buyer_firstname %>
+<%=l(:field_client_buyer_idnumber)%>: <%= issue.client_buyer_idnumber %>
+<%=l(:field_status)%>: <%= issue.status %>
+<%=l(:field_done_ratio)%>: <%= issue.done_ratio.to_s %>
+<%=l(:field_due_date)%>: <%= issue.due_date %>
+
+<% issue.custom_values.each do |c| %><%= c.custom_field.name %>: <%= show_value(c) %>
+<% end %>
+
+<%=l(:field_description)%>: <%= issue.description %>

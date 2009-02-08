@@ -1,0 +1,21 @@
+<h2><%= l(:label_spent_cost) %></h2>
+
+<% labelled_tabular_form_for :cost_entry, @cost_entry, :url => {:action => 'edit', :project_id => @cost_entry.project} do |f| %>
+<%= error_messages_for 'cost_entry' %>
+<%= back_url_hidden_field_tag %>
+
+<div class="box">
+<p><%= f.text_field :issue_id, :size => 6 %> <em><%= h("#{@cost_entry.issue.tracker.name} ##{@cost_entry.issue.id}: #{@cost_entry.issue.subject}") if @cost_entry.issue %></em></p>
+<p><%= f.text_field :spent_on, :size => 10, :required => true %><%= calendar_for('cost_entry_spent_on') %></p>
+<p><%= f.text_field :costs, :size => 6, :required => true %> $ </p>
+<p><%= f.text_field :comments, :size => 100 %></p>
+<p><%= f.select :activity_id, activity_collection_for_select_options, :required => true %></p>
+<% @cost_entry.custom_field_values.each do |value| %>
+	<p><%= custom_field_tag_with_label :cost_entry, value %></p>
+<% end %>
+<%= call_hook(:view_costlog_edit_form_bottom, { :cost_entry => @cost_entry, :form => f }) %>
+</div>
+
+<%= submit_tag l(:button_save) %>
+
+<% end %>

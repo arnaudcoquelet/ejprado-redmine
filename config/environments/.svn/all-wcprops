@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 44
+/svn/!svn/ver/1625/trunk/config/environments
+END
+test.rb
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/!svn/ver/1625/trunk/config/environments/test.rb
+END
+development.rb
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/!svn/ver/975/trunk/config/environments/development.rb
+END
+test_sqlite3.rb
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/!svn/ver/1625/trunk/config/environments/test_sqlite3.rb
+END
+demo.rb
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/!svn/ver/772/trunk/config/environments/demo.rb
+END
+test_pgsql.rb
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/!svn/ver/1625/trunk/config/environments/test_pgsql.rb
+END
+production.rb
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/!svn/ver/772/trunk/config/environments/production.rb
+END

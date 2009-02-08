@@ -1,0 +1,53 @@
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/!svn/ver/975/trunk/vendor/plugins/actionwebservice/lib/action_web_service/templates/scaffolds
+END
+layout.rhtml
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svn/!svn/ver/975/trunk/vendor/plugins/actionwebservice/lib/action_web_service/templates/scaffolds/layout.rhtml
+END
+result.rhtml
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svn/!svn/ver/975/trunk/vendor/plugins/actionwebservice/lib/action_web_service/templates/scaffolds/result.rhtml
+END
+layout.erb
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/!svn/ver/975/trunk/vendor/plugins/actionwebservice/lib/action_web_service/templates/scaffolds/layout.erb
+END
+result.erb
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/!svn/ver/975/trunk/vendor/plugins/actionwebservice/lib/action_web_service/templates/scaffolds/result.erb
+END
+methods.rhtml
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svn/!svn/ver/975/trunk/vendor/plugins/actionwebservice/lib/action_web_service/templates/scaffolds/methods.rhtml
+END
+parameters.rhtml
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/svn/!svn/ver/975/trunk/vendor/plugins/actionwebservice/lib/action_web_service/templates/scaffolds/parameters.rhtml
+END
+methods.erb
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/!svn/ver/975/trunk/vendor/plugins/actionwebservice/lib/action_web_service/templates/scaffolds/methods.erb
+END
+parameters.erb
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/!svn/ver/975/trunk/vendor/plugins/actionwebservice/lib/action_web_service/templates/scaffolds/parameters.erb
+END

@@ -1,0 +1,47 @@
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/!svn/ver/2006/trunk/app/views/projects/settings
+END
+_issue_categories.rhtml
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/!svn/ver/747/trunk/app/views/projects/settings/_issue_categories.rhtml
+END
+_repository.rhtml
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/!svn/ver/2006/trunk/app/views/projects/settings/_repository.rhtml
+END
+_wiki.rhtml
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/!svn/ver/1143/trunk/app/views/projects/settings/_wiki.rhtml
+END
+_modules.rhtml
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/!svn/ver/1151/trunk/app/views/projects/settings/_modules.rhtml
+END
+_versions.rhtml
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/!svn/ver/955/trunk/app/views/projects/settings/_versions.rhtml
+END
+_boards.rhtml
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/!svn/ver/747/trunk/app/views/projects/settings/_boards.rhtml
+END
+_members.rhtml
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/!svn/ver/1796/trunk/app/views/projects/settings/_members.rhtml
+END

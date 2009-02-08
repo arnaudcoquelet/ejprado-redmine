@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 43
+/svn/!svn/ver/1152/trunk/app/views/journals
+END
+_notes_form.rhtml
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/!svn/ver/1105/trunk/app/views/journals/_notes_form.rhtml
+END
+update.rjs
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/!svn/ver/1152/trunk/app/views/journals/update.rjs
+END
+edit.rjs
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/!svn/ver/1105/trunk/app/views/journals/edit.rjs
+END

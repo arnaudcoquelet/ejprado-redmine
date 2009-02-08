@@ -1,0 +1,37 @@
+9
+
+dir
+2054
+http://redmine.rubyforge.org/svn/trunk/extra
+http://redmine.rubyforge.org/svn
+
+
+
+2008-11-11T13:54:10.112610Z
+2017
+jplang
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+e93f8b46-1217-0410-a6f0-8f06a7374b81
+
+mail_handler
+dir
+
+sample_plugin
+dir
+
+svn
+dir
+

@@ -1,0 +1,76 @@
+9
+
+dir
+2054
+http://redmine.rubyforge.org/svn/trunk/vendor/plugins
+http://redmine.rubyforge.org/svn
+
+
+
+2008-10-30T02:58:04.259131Z
+1962
+edavis10
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+e93f8b46-1217-0410-a6f0-8f06a7374b81
+
+gloc-1.1.0
+dir
+
+ruby-net-ldap-0.0.4
+dir
+
+acts_as_searchable
+dir
+
+acts_as_watchable
+dir
+
+engines
+dir
+
+classic_pagination
+dir
+
+acts_as_versioned
+dir
+
+acts_as_tree
+dir
+
+actionwebservice
+dir
+
+acts_as_customizable
+dir
+
+rfpdf
+dir
+
+acts_as_activity_provider
+dir
+
+coderay-0.7.6.227
+dir
+
+gravatar
+dir
+
+acts_as_list
+dir
+
+acts_as_event
+dir
+

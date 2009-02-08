@@ -1,0 +1,24 @@
+<div class="splitcontentleft">
+  <% if User.current.allowed_to?(:view_internal_infos, @project) %>
+	<% if User.current.allowed_to?(:edit_internal_infos, @project) %>
+		<p><%= f.select :status_id, (@allowed_statuses.collect {|p| [p.name, p.id]}), :required => true %></p>
+		<p><%= f.select :assigned_to_id, (@issue.assignable_users.collect {|m| [m.name, m.id]}), :include_blank => true %></p>
+	<% else %>
+		<p><label><%= l(:field_assigned_to) %></label> <%= @issue.assigned_to %></p>
+	<% end %>	
+  <% end %>
+</div>
+
+<div class="splitcontentright">
+	<% if User.current.allowed_to?(:view_internal_infos, @project) %>
+        <% if User.current.allowed_to?(:edit_internal_infos, @project) %>
+			<p><%= f.select :done_ratio, ((0..10).to_a.collect {|r| ["#{r*10} %", r*10] }) %></p>
+			<%= content_tag('p', f.select(:fixed_version_id, 
+				(@project.versions.sort.collect {|v| [v.name, v.id]}),
+				{ :include_blank => true })) unless @project.versions.empty? %>
+		<% else %>
+			<p><label><%= l(:field_done_ratio) %></label> <%= @issue.done_ratio.to_s %> %</p>
+		<% end %>
+	<% end %>
+
+</div>

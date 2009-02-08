@@ -1,0 +1,53 @@
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/!svn/ver/1084/trunk/vendor/plugins/actionwebservice
+END
+Rakefile
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/!svn/ver/975/trunk/vendor/plugins/actionwebservice/Rakefile
+END
+setup.rb
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/!svn/ver/975/trunk/vendor/plugins/actionwebservice/setup.rb
+END
+TODO
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/!svn/ver/975/trunk/vendor/plugins/actionwebservice/TODO
+END
+init.rb
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/!svn/ver/1084/trunk/vendor/plugins/actionwebservice/init.rb
+END
+CHANGELOG
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/!svn/ver/975/trunk/vendor/plugins/actionwebservice/CHANGELOG
+END
+install.rb
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/!svn/ver/975/trunk/vendor/plugins/actionwebservice/install.rb
+END
+MIT-LICENSE
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/!svn/ver/975/trunk/vendor/plugins/actionwebservice/MIT-LICENSE
+END
+README
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/!svn/ver/975/trunk/vendor/plugins/actionwebservice/README
+END

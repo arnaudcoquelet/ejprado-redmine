@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/!svn/ver/252/trunk/vendor/plugins/ruby-net-ldap-0.0.4/lib/net/ldap
+END
+entry.rb
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/!svn/ver/134/trunk/vendor/plugins/ruby-net-ldap-0.0.4/lib/net/ldap/entry.rb
+END
+dataset.rb
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/!svn/ver/134/trunk/vendor/plugins/ruby-net-ldap-0.0.4/lib/net/ldap/dataset.rb
+END
+filter.rb
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/!svn/ver/252/trunk/vendor/plugins/ruby-net-ldap-0.0.4/lib/net/ldap/filter.rb
+END
+pdu.rb
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/!svn/ver/134/trunk/vendor/plugins/ruby-net-ldap-0.0.4/lib/net/ldap/pdu.rb
+END
+psw.rb
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/!svn/ver/134/trunk/vendor/plugins/ruby-net-ldap-0.0.4/lib/net/ldap/psw.rb
+END

@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/svn/!svn/ver/2053/trunk/test/unit/lib/redmine
+END
+plugin_test.rb
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/!svn/ver/2042/trunk/test/unit/lib/redmine/plugin_test.rb
+END
+hook_test.rb
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/!svn/ver/1786/trunk/test/unit/lib/redmine/hook_test.rb
+END
+access_control_test.rb
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/!svn/ver/1907/trunk/test/unit/lib/redmine/access_control_test.rb
+END

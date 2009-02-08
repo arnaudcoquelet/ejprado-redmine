@@ -1,0 +1,287 @@
+K 25
+svn:wc:ra_dav:version-url
+V 34
+/svn/!svn/ver/2054/trunk/test/unit
+END
+token_test.rb
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/svn/!svn/ver/197/trunk/test/unit/token_test.rb
+END
+repository_mercurial_test.rb
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/!svn/ver/1499/trunk/test/unit/repository_mercurial_test.rb
+END
+repository_git_test.rb
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/!svn/ver/2006/trunk/test/unit/repository_git_test.rb
+END
+mercurial_adapter_test.rb
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/!svn/ver/1652/trunk/test/unit/mercurial_adapter_test.rb
+END
+filesystem_adapter_test.rb
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/!svn/ver/1508/trunk/test/unit/filesystem_adapter_test.rb
+END
+version_test.rb
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svn/!svn/ver/1889/trunk/test/unit/version_test.rb
+END
+enumeration_test.rb
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/!svn/ver/1558/trunk/test/unit/enumeration_test.rb
+END
+board_test.rb
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/svn/!svn/ver/529/trunk/test/unit/board_test.rb
+END
+issue_test.rb
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/svn/!svn/ver/1697/trunk/test/unit/issue_test.rb
+END
+issue_status_test.rb
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/!svn/ver/1923/trunk/test/unit/issue_status_test.rb
+END
+tracker_test.rb
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svn/!svn/ver/1623/trunk/test/unit/tracker_test.rb
+END
+repository_subversion_test.rb
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/!svn/ver/1363/trunk/test/unit/repository_subversion_test.rb
+END
+repository_bazaar_test.rb
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/!svn/ver/1363/trunk/test/unit/repository_bazaar_test.rb
+END
+changeset_test.rb
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/!svn/ver/1451/trunk/test/unit/changeset_test.rb
+END
+role_test.rb
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/svn/!svn/ver/1814/trunk/test/unit/role_test.rb
+END
+comment_test.rb
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/svn/!svn/ver/479/trunk/test/unit/comment_test.rb
+END
+wiki_test.rb
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/svn/!svn/ver/805/trunk/test/unit/wiki_test.rb
+END
+calendar_test.rb
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svn/!svn/ver/815/trunk/test/unit/calendar_test.rb
+END
+journal_test.rb
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/svn/!svn/ver/892/trunk/test/unit/journal_test.rb
+END
+default_data_test.rb
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/!svn/ver/1675/trunk/test/unit/default_data_test.rb
+END
+user_test.rb
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/svn/!svn/ver/2010/trunk/test/unit/user_test.rb
+END
+mail_handler_test.rb
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/!svn/ver/1751/trunk/test/unit/mail_handler_test.rb
+END
+repository_test.rb
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/!svn/ver/2006/trunk/test/unit/repository_test.rb
+END
+time_entry_test.rb
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/!svn/ver/1320/trunk/test/unit/time_entry_test.rb
+END
+auth_source_ldap_test.rb
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/!svn/ver/1894/trunk/test/unit/auth_source_ldap_test.rb
+END
+repository_filesystem_test.rb
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/!svn/ver/1508/trunk/test/unit/repository_filesystem_test.rb
+END
+message_test.rb
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svn/!svn/ver/2019/trunk/test/unit/message_test.rb
+END
+wiki_redirect_test.rb
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/!svn/ver/720/trunk/test/unit/wiki_redirect_test.rb
+END
+issue_category_test.rb
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/!svn/ver/733/trunk/test/unit/issue_category_test.rb
+END
+attachment_test.rb
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/!svn/ver/1433/trunk/test/unit/attachment_test.rb
+END
+repository_cvs_test.rb
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/!svn/ver/1753/trunk/test/unit/repository_cvs_test.rb
+END
+repository_darcs_test.rb
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/!svn/ver/1759/trunk/test/unit/repository_darcs_test.rb
+END
+activity_test.rb
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/!svn/ver/1701/trunk/test/unit/activity_test.rb
+END
+watcher_test.rb
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/svn/!svn/ver/725/trunk/test/unit/watcher_test.rb
+END
+wiki_content_test.rb
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/!svn/ver/479/trunk/test/unit/wiki_content_test.rb
+END
+subversion_adapter_test.rb
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/!svn/ver/1627/trunk/test/unit/subversion_adapter_test.rb
+END
+wiki_page_test.rb
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/!svn/ver/1698/trunk/test/unit/wiki_page_test.rb
+END
+query_test.rb
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/svn/!svn/ver/2054/trunk/test/unit/query_test.rb
+END
+search_test.rb
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/svn/!svn/ver/1681/trunk/test/unit/search_test.rb
+END
+project_test.rb
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svn/!svn/ver/1777/trunk/test/unit/project_test.rb
+END
+custom_value_test.rb
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/!svn/ver/1101/trunk/test/unit/custom_value_test.rb
+END
+member_test.rb
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/svn/!svn/ver/67/trunk/test/unit/member_test.rb
+END
+mailer_test.rb
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/svn/!svn/ver/1992/trunk/test/unit/mailer_test.rb
+END
+news_test.rb
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/svn/!svn/ver/1910/trunk/test/unit/news_test.rb
+END
+user_preference_test.rb
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/!svn/ver/197/trunk/test/unit/user_preference_test.rb
+END
+custom_field_test.rb
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/!svn/ver/870/trunk/test/unit/custom_field_test.rb
+END
+setting_test.rb
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/svn/!svn/ver/742/trunk/test/unit/setting_test.rb
+END

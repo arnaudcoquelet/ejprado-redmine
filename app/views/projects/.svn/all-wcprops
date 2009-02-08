@@ -1,0 +1,95 @@
+K 25
+svn:wc:ra_dav:version-url
+V 43
+/svn/!svn/ver/2006/trunk/app/views/projects
+END
+activity.rhtml
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/!svn/ver/2001/trunk/app/views/projects/activity.rhtml
+END
+list_files.rhtml
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/!svn/ver/1686/trunk/app/views/projects/list_files.rhtml
+END
+add_version.rhtml
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/!svn/ver/333/trunk/app/views/projects/add_version.rhtml
+END
+add_issue_category.rhtml
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/!svn/ver/577/trunk/app/views/projects/add_issue_category.rhtml
+END
+settings.rhtml
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/!svn/ver/1293/trunk/app/views/projects/settings.rhtml
+END
+_form.rhtml
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/!svn/ver/1978/trunk/app/views/projects/_form.rhtml
+END
+index.rhtml
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/!svn/ver/1518/trunk/app/views/projects/index.rhtml
+END
+show.rhtml
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/!svn/ver/1940/trunk/app/views/projects/show.rhtml
+END
+roadmap.rhtml
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/!svn/ver/1680/trunk/app/views/projects/roadmap.rhtml
+END
+_edit.rhtml
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/!svn/ver/725/trunk/app/views/projects/_edit.rhtml
+END
+list_members.rhtml
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/!svn/ver/578/trunk/app/views/projects/list_members.rhtml
+END
+changelog.rhtml
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/!svn/ver/789/trunk/app/views/projects/changelog.rhtml
+END
+add_file.rhtml
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/!svn/ver/1180/trunk/app/views/projects/add_file.rhtml
+END
+add.rhtml
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/!svn/ver/1203/trunk/app/views/projects/add.rhtml
+END
+destroy.rhtml
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/!svn/ver/1359/trunk/app/views/projects/destroy.rhtml
+END

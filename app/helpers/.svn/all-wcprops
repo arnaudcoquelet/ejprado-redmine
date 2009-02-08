@@ -1,0 +1,221 @@
+K 25
+svn:wc:ra_dav:version-url
+V 36
+/svn/!svn/ver/2053/trunk/app/helpers
+END
+trackers_helper.rb
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/!svn/ver/333/trunk/app/helpers/trackers_helper.rb
+END
+issue_statuses_helper.rb
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/!svn/ver/333/trunk/app/helpers/issue_statuses_helper.rb
+END
+roles_helper.rb
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/!svn/ver/333/trunk/app/helpers/roles_helper.rb
+END
+sort_helper.rb
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/!svn/ver/1410/trunk/app/helpers/sort_helper.rb
+END
+repositories_helper.rb
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/!svn/ver/1900/trunk/app/helpers/repositories_helper.rb
+END
+admin_helper.rb
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/!svn/ver/1947/trunk/app/helpers/admin_helper.rb
+END
+projects_helper.rb
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/!svn/ver/1797/trunk/app/helpers/projects_helper.rb
+END
+account_helper.rb
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/!svn/ver/333/trunk/app/helpers/account_helper.rb
+END
+issue_categories_helper.rb
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/!svn/ver/333/trunk/app/helpers/issue_categories_helper.rb
+END
+documents_helper.rb
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/!svn/ver/333/trunk/app/helpers/documents_helper.rb
+END
+wiki_helper.rb
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/!svn/ver/2053/trunk/app/helpers/wiki_helper.rb
+END
+enumerations_helper.rb
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/!svn/ver/333/trunk/app/helpers/enumerations_helper.rb
+END
+issues_helper.rb
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/!svn/ver/1786/trunk/app/helpers/issues_helper.rb
+END
+queries_helper.rb
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/!svn/ver/1969/trunk/app/helpers/queries_helper.rb
+END
+mail_handler_helper.rb
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/!svn/ver/1584/trunk/app/helpers/mail_handler_helper.rb
+END
+watchers_helper.rb
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/!svn/ver/1712/trunk/app/helpers/watchers_helper.rb
+END
+my_helper.rb
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/svn/!svn/ver/333/trunk/app/helpers/my_helper.rb
+END
+ifpdf_helper.rb
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/!svn/ver/2003/trunk/app/helpers/ifpdf_helper.rb
+END
+members_helper.rb
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/!svn/ver/333/trunk/app/helpers/members_helper.rb
+END
+welcome_helper.rb
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/!svn/ver/333/trunk/app/helpers/welcome_helper.rb
+END
+journals_helper.rb
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/!svn/ver/1773/trunk/app/helpers/journals_helper.rb
+END
+workflows_helper.rb
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/!svn/ver/1914/trunk/app/helpers/workflows_helper.rb
+END
+reports_helper.rb
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/!svn/ver/629/trunk/app/helpers/reports_helper.rb
+END
+timelog_helper.rb
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/!svn/ver/1778/trunk/app/helpers/timelog_helper.rb
+END
+settings_helper.rb
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/!svn/ver/1777/trunk/app/helpers/settings_helper.rb
+END
+custom_fields_helper.rb
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/!svn/ver/1689/trunk/app/helpers/custom_fields_helper.rb
+END
+users_helper.rb
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/!svn/ver/1735/trunk/app/helpers/users_helper.rb
+END
+application_helper.rb
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/!svn/ver/2053/trunk/app/helpers/application_helper.rb
+END
+auth_sources_helper.rb
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/!svn/ver/333/trunk/app/helpers/auth_sources_helper.rb
+END
+search_helper.rb
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/!svn/ver/1709/trunk/app/helpers/search_helper.rb
+END
+messages_helper.rb
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/!svn/ver/529/trunk/app/helpers/messages_helper.rb
+END
+versions_helper.rb
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/!svn/ver/955/trunk/app/helpers/versions_helper.rb
+END
+issue_relations_helper.rb
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/!svn/ver/506/trunk/app/helpers/issue_relations_helper.rb
+END
+boards_helper.rb
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/!svn/ver/529/trunk/app/helpers/boards_helper.rb
+END
+attachments_helper.rb
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/!svn/ver/1516/trunk/app/helpers/attachments_helper.rb
+END
+news_helper.rb
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svn/!svn/ver/333/trunk/app/helpers/news_helper.rb
+END

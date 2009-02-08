@@ -1,0 +1,1 @@
+rake db:data:dump RAILS_ENV="production"

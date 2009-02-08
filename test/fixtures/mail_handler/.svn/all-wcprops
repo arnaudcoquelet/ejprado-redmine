@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/!svn/ver/1933/trunk/test/fixtures/mail_handler
+END
+ticket_with_attributes.eml
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/!svn/ver/1643/trunk/test/fixtures/mail_handler/ticket_with_attributes.eml
+END
+ticket_with_attachment.eml
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/!svn/ver/1568/trunk/test/fixtures/mail_handler/ticket_with_attachment.eml
+END
+ticket_reply_with_status.eml
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/!svn/ver/1751/trunk/test/fixtures/mail_handler/ticket_reply_with_status.eml
+END
+ticket_on_given_project.eml
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/!svn/ver/1933/trunk/test/fixtures/mail_handler/ticket_on_given_project.eml
+END
+ticket_reply.eml
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/!svn/ver/1568/trunk/test/fixtures/mail_handler/ticket_reply.eml
+END

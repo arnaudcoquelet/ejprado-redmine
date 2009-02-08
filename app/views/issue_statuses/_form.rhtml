@@ -1,0 +1,25 @@
+<%= error_messages_for 'issue_status' %>
+
+<div class="box">
+<!--[form:issue_status]-->
+<p><label for="issue_status_name"><%=l(:field_name)%><span class="required"> *</span></label>
+<%= text_field 'issue_status', 'name'  %></p>
+
+<p><label for="issue_status_is_closed"><%=l(:field_is_closed)%></label>
+<%= check_box 'issue_status', 'is_closed' %></p>
+
+<p><label for="issue_status_is_paused"><%=l(:field_is_paused)%></label>
+<%= check_box 'issue_status', 'is_paused' %></p>
+
+<p><label for="issue_status_is_default"><%=l(:field_is_default)%></label>
+<%= check_box 'issue_status', 'is_default' %></p>
+
+<p><label for="issue_status_duration"><%=l(:field_duration)%><span class="required"> *</span></label>
+<%= text_field 'issue_status', 'duration'  %> <%=l(:field_days)%></p>
+
+<p><label for="issue_status_progress"><%=l(:field_progress)%><span class="required"> *</span></label>
+<%= text_field 'issue_status', 'progress'  %> <%=l(:field_progression)%></p>
+
+
+<!--[eoform:issue_status]-->
+</div>

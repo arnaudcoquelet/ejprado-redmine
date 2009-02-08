@@ -1,0 +1,46 @@
+9
+
+dir
+2054
+http://redmine.rubyforge.org/svn/trunk/app
+http://redmine.rubyforge.org/svn
+
+
+
+2008-11-23T16:40:35.477953Z
+2054
+jplang
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+e93f8b46-1217-0410-a6f0-8f06a7374b81
+
+helpers
+dir
+
+models
+dir
+
+controllers
+dir
+
+apis
+dir
+
+sweepers
+dir
+
+views
+dir
+

@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 37
+/svn/!svn/ver/1766/trunk/app/views/my
+END
+account.rhtml
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/!svn/ver/1197/trunk/app/views/my/account.rhtml
+END
+page.rhtml
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/svn/!svn/ver/1130/trunk/app/views/my/page.rhtml
+END
+password.rhtml
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/!svn/ver/927/trunk/app/views/my/password.rhtml
+END
+_sidebar.rhtml
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/!svn/ver/855/trunk/app/views/my/_sidebar.rhtml
+END
+_block.rhtml
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/svn/!svn/ver/485/trunk/app/views/my/_block.rhtml
+END
+page_layout.rhtml
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/!svn/ver/491/trunk/app/views/my/page_layout.rhtml
+END

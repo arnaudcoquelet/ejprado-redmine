@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 28
+/svn/!svn/ver/1920/trunk/doc
+END
+UPGRADING
+K 25
+svn:wc:ra_dav:version-url
+V 38
+/svn/!svn/ver/1625/trunk/doc/UPGRADING
+END
+RUNNING_TESTS
+K 25
+svn:wc:ra_dav:version-url
+V 42
+/svn/!svn/ver/1920/trunk/doc/RUNNING_TESTS
+END
+README_FOR_APP
+K 25
+svn:wc:ra_dav:version-url
+V 43
+/svn/!svn/ver/1732/trunk/doc/README_FOR_APP
+END
+INSTALL
+K 25
+svn:wc:ra_dav:version-url
+V 36
+/svn/!svn/ver/1625/trunk/doc/INSTALL
+END
+CHANGELOG
+K 25
+svn:wc:ra_dav:version-url
+V 38
+/svn/!svn/ver/1639/trunk/doc/CHANGELOG
+END
+COPYING
+K 25
+svn:wc:ra_dav:version-url
+V 35
+/svn/!svn/ver/883/trunk/doc/COPYING
+END

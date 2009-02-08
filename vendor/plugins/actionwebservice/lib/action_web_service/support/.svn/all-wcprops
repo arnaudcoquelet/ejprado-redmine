@@ -1,0 +1,17 @@
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/!svn/ver/975/trunk/vendor/plugins/actionwebservice/lib/action_web_service/support
+END
+signature_types.rb
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/!svn/ver/975/trunk/vendor/plugins/actionwebservice/lib/action_web_service/support/signature_types.rb
+END
+class_inheritable_options.rb
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/svn/!svn/ver/975/trunk/vendor/plugins/actionwebservice/lib/action_web_service/support/class_inheritable_options.rb
+END

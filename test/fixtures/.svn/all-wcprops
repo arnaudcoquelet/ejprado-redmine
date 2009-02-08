@@ -1,0 +1,233 @@
+K 25
+svn:wc:ra_dav:version-url
+V 38
+/svn/!svn/ver/2054/trunk/test/fixtures
+END
+journal_details.yml
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/!svn/ver/215/trunk/test/fixtures/journal_details.yml
+END
+issue_statuses.yml
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/!svn/ver/881/trunk/test/fixtures/issue_statuses.yml
+END
+roles.yml
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/svn/!svn/ver/2019/trunk/test/fixtures/roles.yml
+END
+changesets.yml
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/!svn/ver/2006/trunk/test/fixtures/changesets.yml
+END
+wikis.yml
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/svn/!svn/ver/1064/trunk/test/fixtures/wikis.yml
+END
+time_entries.yml
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/!svn/ver/1340/trunk/test/fixtures/time_entries.yml
+END
+repositories.yml
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/!svn/ver/981/trunk/test/fixtures/repositories.yml
+END
+projects_trackers.yml
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/!svn/ver/1610/trunk/test/fixtures/projects_trackers.yml
+END
+projects.yml
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/!svn/ver/1399/trunk/test/fixtures/projects.yml
+END
+custom_values.yml
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/!svn/ver/994/trunk/test/fixtures/custom_values.yml
+END
+issue_categories.yml
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/!svn/ver/1697/trunk/test/fixtures/issue_categories.yml
+END
+custom_fields_trackers.yml
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/!svn/ver/67/trunk/test/fixtures/custom_fields_trackers.yml
+END
+user_preferences.yml
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/!svn/ver/197/trunk/test/fixtures/user_preferences.yml
+END
+documents.yml
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/!svn/ver/215/trunk/test/fixtures/documents.yml
+END
+tokens.yml
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/svn/!svn/ver/215/trunk/test/fixtures/tokens.yml
+END
+changes.yml
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svn/!svn/ver/1446/trunk/test/fixtures/changes.yml
+END
+custom_fields_projects.yml
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/!svn/ver/67/trunk/test/fixtures/custom_fields_projects.yml
+END
+enumerations.yml
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/!svn/ver/1568/trunk/test/fixtures/enumerations.yml
+END
+issues.yml
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/svn/!svn/ver/2054/trunk/test/fixtures/issues.yml
+END
+queries.yml
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svn/!svn/ver/1311/trunk/test/fixtures/queries.yml
+END
+watchers.yml
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/!svn/ver/1878/trunk/test/fixtures/watchers.yml
+END
+wiki_contents.yml
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/!svn/ver/2053/trunk/test/fixtures/wiki_contents.yml
+END
+enabled_modules.yml
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/!svn/ver/1907/trunk/test/fixtures/enabled_modules.yml
+END
+wiki_pages.yml
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/!svn/ver/2053/trunk/test/fixtures/wiki_pages.yml
+END
+comments.yml
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/!svn/ver/1270/trunk/test/fixtures/comments.yml
+END
+wiki_content_versions.yml
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/!svn/ver/1020/trunk/test/fixtures/wiki_content_versions.yml
+END
+members.yml
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svn/!svn/ver/1399/trunk/test/fixtures/members.yml
+END
+workflows.yml
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/!svn/ver/1269/trunk/test/fixtures/workflows.yml
+END
+journals.yml
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/!svn/ver/1161/trunk/test/fixtures/journals.yml
+END
+custom_fields.yml
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/!svn/ver/1592/trunk/test/fixtures/custom_fields.yml
+END
+users.yml
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/svn/!svn/ver/1043/trunk/test/fixtures/users.yml
+END
+auth_sources.yml
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/!svn/ver/67/trunk/test/fixtures/auth_sources.yml
+END
+messages.yml
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/!svn/ver/2019/trunk/test/fixtures/messages.yml
+END
+versions.yml
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/!svn/ver/1455/trunk/test/fixtures/versions.yml
+END
+boards.yml
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/svn/!svn/ver/926/trunk/test/fixtures/boards.yml
+END
+attachments.yml
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/!svn/ver/1685/trunk/test/fixtures/attachments.yml
+END
+news.yml
+K 25
+svn:wc:ra_dav:version-url
+V 45
+/svn/!svn/ver/81/trunk/test/fixtures/news.yml
+END
+trackers.yml
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/!svn/ver/1071/trunk/test/fixtures/trackers.yml
+END

@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 45
+/svn/!svn/ver/1623/trunk/vendor/plugins/rfpdf
+END
+init.rb
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/!svn/ver/1623/trunk/vendor/plugins/rfpdf/init.rb
+END
+CHANGELOG
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/!svn/ver/67/trunk/vendor/plugins/rfpdf/CHANGELOG
+END
+MIT-LICENSE
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/!svn/ver/67/trunk/vendor/plugins/rfpdf/MIT-LICENSE
+END
+README
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svn/!svn/ver/67/trunk/vendor/plugins/rfpdf/README
+END

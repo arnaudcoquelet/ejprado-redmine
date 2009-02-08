@@ -1,0 +1,17 @@
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/!svn/ver/975/trunk/vendor/plugins/actionwebservice/lib/action_web_service/dispatcher
+END
+abstract.rb
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/!svn/ver/975/trunk/vendor/plugins/actionwebservice/lib/action_web_service/dispatcher/abstract.rb
+END
+action_controller_dispatcher.rb
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/svn/!svn/ver/975/trunk/vendor/plugins/actionwebservice/lib/action_web_service/dispatcher/action_controller_dispatcher.rb
+END

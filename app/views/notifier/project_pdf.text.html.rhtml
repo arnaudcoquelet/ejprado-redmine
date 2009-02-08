@@ -1,0 +1,39 @@
+<H2 style="font-family: sans-serif">
+  <%= @project.name %>
+</H2>
+
+<table class="list issues" style="border-color: #EEEEEE; border-collapse: collapse; font-family: sans-serif" border="1">
+  <thead>
+    <tr style="background-color: #eeeeee; padding-top: 4px; padding-right: 4px; padding-bottom: 4px; padding-left: 4px; white-space: normal; color: #2a5685;">
+      <th > # </th>
+      <th> <%=  l(:field_client_buyer_idnumber)   %> </th>
+      <th> <%=  l(:field_client_buyer_name)  %> </th>
+      <th> <%=  l(:field_client_vfirstname)  %> </th>
+      <th> <%=  l(:field_tracker) %> </th>
+      <th> <%=  l(:field_subject) %> </th>
+      <th> <%=  l(:field_status)  %> </th>
+      <th> <%=  l(:field_start_date)   %> </th>
+      <th> <%=  l(:field_due_date)   %> </th>
+      <th> <%=  l(:field_done_ratio) %> </th>
+    </tr>
+  </thead>
+  <tbody>
+    <% @issues.each do |issue| -%>
+      <tr id="issue" style="padding-top: 2px; padding-right: 2px; padding-bottom: 2px; padding-left: 2px; vertical-align: top; white-space: normal;">
+        <td ><%= issue.id.to_s %></td>
+        <td ><%= issue.client_buyer_idnumber %></td>
+        <td ><%= issue.client_buyer_name %></td>
+        <td ><%= issue.client_vfirstname %></td>
+        <td ><%= issue.tracker.name %></td>
+        <td ><%= issue.subject %></td>
+        <td ><%= issue.status.name %></td>
+        <td ><%= format_date(issue.start_date) %></td>
+        <td ><%= format_date(issue.due_date) %></td>
+        <td ><%=  issue.done_ratio.to_s %></td>
+      </tr>
+    <% end -%>
+  </tbody>
+</table>
+
+
+

@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/!svn/ver/975/trunk/vendor/plugins/actionwebservice/lib/action_web_service/container
+END
+delegated_container.rb
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svn/!svn/ver/975/trunk/vendor/plugins/actionwebservice/lib/action_web_service/container/delegated_container.rb
+END
+action_controller_container.rb
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/svn/!svn/ver/975/trunk/vendor/plugins/actionwebservice/lib/action_web_service/container/action_controller_container.rb
+END
+direct_container.rb
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/!svn/ver/975/trunk/vendor/plugins/actionwebservice/lib/action_web_service/container/direct_container.rb
+END

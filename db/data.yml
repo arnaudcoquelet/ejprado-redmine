@@ -1,0 +1,3169 @@
+
+--- 
+attachments: 
+  columns: 
+  - id
+  - container_id
+  - container_type
+  - filename
+  - disk_filename
+  - filesize
+  - content_type
+  - digest
+  - downloads
+  - author_id
+  - created_on
+  - description
+  records: 
+  - - "1"
+    - "2"
+    - Issue
+    - Greg2.txt
+    - 081209140714_Greg2.txt
+    - "65"
+    - text/plain
+    - aa6ed3dafc0318a2559a35e23b16c7d4
+    - "0"
+    - "1"
+    - 2008-12-09 14:07:14
+    - Factura
+
+--- 
+cost_entries: 
+  columns: 
+  - id
+  - project_id
+  - user_id
+  - issue_id
+  - costs
+  - comments
+  - activity_id
+  - spent_on
+  - tyear
+  - tmonth
+  - tweek
+  - created_at
+  - updated_at
+  records: 
+  - - "1"
+    - "1"
+    - "4"
+    - "8"
+    - "10"
+    - Copias ...
+    - "10"
+    - "2008-12-09"
+    - "2008"
+    - "12"
+    - "50"
+    - 2008-12-09 22:03:16
+    - 2008-12-09 22:03:16
+  - - "2"
+    - "1"
+    - "4"
+    - "8"
+    - "22"
+    - Formularios
+    - "9"
+    - "2008-12-09"
+    - "2008"
+    - "12"
+    - "50"
+    - 2008-12-09 22:03:29
+    - 2008-12-09 22:03:29
+  - - "3"
+    - "1"
+    - "4"
+    - "7"
+    - "100"
+    - Impuestos
+    - "3"
+    - "2008-12-09"
+    - "2008"
+    - "12"
+    - "50"
+    - 2008-12-09 22:03:54
+    - 2008-12-09 22:03:54
+
+--- 
+enabled_modules: 
+  columns: 
+  - id
+  - project_id
+  - name
+  records: 
+  - - "19"
+    - "1"
+    - issue_tracking
+  - - "20"
+    - "1"
+    - cost_tracking
+  - - "21"
+    - "1"
+    - documents
+  - - "27"
+    - "2"
+    - issue_tracking
+  - - "28"
+    - "2"
+    - cost_tracking
+  - - "29"
+    - "2"
+    - documents
+
+--- 
+enumerations: 
+  columns: 
+  - id
+  - opt
+  - name
+  - position
+  - is_default
+  records: 
+  - - "1"
+    - IPRI
+    - Normal
+    - "1"
+    - true
+  - - "2"
+    - ACTI
+    - "Certificado de Grav\xC3\xA1mene"
+    - "3"
+    - false
+  - - "3"
+    - ACTI
+    - Impuesto por Obras
+    - "4"
+    - false
+  - - "4"
+    - ACTI
+    - Alcabala
+    - "5"
+    - false
+  - - "5"
+    - ACTI
+    - "Plusval\xC3\xADa"
+    - "6"
+    - false
+  - - "6"
+    - ACTI
+    - Consejo Provincial
+    - "7"
+    - false
+  - - "7"
+    - ACTI
+    - Escritura
+    - "8"
+    - false
+  - - "8"
+    - ACTI
+    - "Inscripci\xC3\xB3n"
+    - "9"
+    - false
+  - - "9"
+    - ACTI
+    - Formularios
+    - "2"
+    - false
+  - - "10"
+    - ACTI
+    - Copias
+    - "1"
+    - true
+  - - "11"
+    - ACTI
+    - "Movilizaci\xC3\xB3n"
+    - "10"
+    - false
+  - - "12"
+    - ACTI
+    - Tasas Municipales
+    - "11"
+    - false
+  - - "13"
+    - ACTI
+    - Otro
+    - "12"
+    - false
+  - - "14"
+    - DCAT
+    - Certificado
+    - "2"
+    - false
+  - - "15"
+    - DCAT
+    - Factura
+    - "1"
+    - false
+  - - "16"
+    - DCAT
+    - Cedula
+    - "3"
+    - false
+  - - "17"
+    - DCAT
+    - Otro
+    - "4"
+    - false
+
+--- 
+issue_statuses: 
+  columns: 
+  - id
+  - name
+  - duration
+  - progress
+  - is_closed
+  - is_default
+  - position
+  records: 
+  - - "3"
+    - Finalizado
+    - "1"
+    - "100"
+    - true
+    - false
+    - "6"
+  - - "4"
+    - Minuta
+    - "2"
+    - "0"
+    - false
+    - true
+    - "1"
+  - - "5"
+    - Catastro Municipal
+    - "5"
+    - "20"
+    - false
+    - false
+    - "2"
+  - - "6"
+    - Cierre de Escritura
+    - "2"
+    - "40"
+    - false
+    - false
+    - "3"
+  - - "7"
+    - Revision
+    - "2"
+    - "60"
+    - false
+    - false
+    - "4"
+  - - "8"
+    - Inscripcion
+    - "4"
+    - "80"
+    - false
+    - false
+    - "5"
+
+--- 
+issues: 
+  columns: 
+  - id
+  - tracker_id
+  - project_id
+  - client_name
+  - client_firstname
+  - client_idnumber
+  - subject
+  - description
+  - due_date
+  - category_id
+  - status_id
+  - assigned_to_id
+  - priority_id
+  - fixed_version_id
+  - author_id
+  - lock_version
+  - created_on
+  - updated_on
+  - start_date
+  - done_ratio
+  - estimated_hours
+  - duestep_date
+  - issue_progress
+  records: 
+  - - "1"
+    - "1"
+    - "1"
+    - Coquelet
+    - Arnaud
+    - "1724319494"
+    - Compraventa Senor Arnaud Coquelet
+    - Compraventa Senor Arnaud Coquelet
+    - "2008-12-30"
+    - 
+    - "6"
+    - "1"
+    - "1"
+    - 
+    - "1"
+    - "274"
+    - 2008-11-28 14:08:17
+    - 2009-01-08 16:38:51
+    - "2008-11-28"
+    - "60"
+    - "23"
+    - "2009-02-09"
+    - "1"
+  - - "2"
+    - "1"
+    - "1"
+    - Arnaud
+    - Coquelet
+    - "1734319494"
+    - compraventa 2
+    - compraventa 2
+    - "2008-12-26"
+    - 
+    - "7"
+    - 
+    - "1"
+    - 
+    - "1"
+    - "205"
+    - 2008-12-01 17:05:33
+    - 2009-01-08 16:38:51
+    - "2008-12-01"
+    - "60"
+    - "5"
+    - "2009-01-15"
+    - "1"
+  - - "3"
+    - "1"
+    - "1"
+    - Coquelet
+    - Arnaud
+    - "1714319494"
+    - compraventa 3
+    - compraventa 3
+    - "2008-12-01"
+    - 
+    - "6"
+    - 
+    - "1"
+    - 
+    - "1"
+    - "225"
+    - 2008-12-01 17:33:44
+    - 2008-12-09 12:07:04
+    - "2008-12-01"
+    - "40"
+    - "5"
+    - "2009-01-15"
+    - "1"
+  - - "4"
+    - "1"
+    - "1"
+    - Ortiz
+    - Sebastian
+    - "1724319999"
+    - compraventa 4
+    - compraventa 4
+    - "2008-12-26"
+    - 
+    - "6"
+    - "4"
+    - "1"
+    - 
+    - "1"
+    - "227"
+    - 2008-12-01 17:41:56
+    - 2009-01-08 16:38:51
+    - "2008-12-01"
+    - "40"
+    - "5"
+    - "2008-12-10"
+    - "1"
+  - - "5"
+    - "1"
+    - "1"
+    - Coquelet
+    - Arnaud
+    - "1724319494"
+    - compraventa numero 5
+    - compraventa numero 5
+    - "2008-12-26"
+    - 
+    - "5"
+    - "4"
+    - "1"
+    - 
+    - "1"
+    - "240"
+    - 2008-12-01 17:51:01
+    - 2009-01-08 16:38:51
+    - "2008-12-01"
+    - "20"
+    - "2"
+    - "2008-12-02"
+    - "1"
+  - - "6"
+    - "1"
+    - "1"
+    - Sandoval
+    - Carlos
+    - "1711851053"
+    - Escritura Parquadero
+    - |-
+      Escritura Parquadera:
+      
+      Es necesario hacer la escritura de un parquadero si no hay acceso al mismo
+    - "2008-12-01"
+    - 
+    - "3"
+    - 
+    - "1"
+    - 
+    - "1"
+    - "81"
+    - 2008-12-01 23:49:04
+    - 2008-12-03 14:47:58
+    - "2008-12-01"
+    - "100"
+    - "1"
+    - "2009-01-21"
+    - "0"
+  - - "7"
+    - "1"
+    - "1"
+    - Coquelet
+    - Arnaud
+    - "1234567890"
+    - Compraventa
+    - Compraventa
+    - "2008-12-29"
+    - 
+    - "5"
+    - "4"
+    - "1"
+    - 
+    - "1"
+    - "185"
+    - 2008-12-03 13:00:01
+    - 2009-01-08 16:38:51
+    - "2008-12-03"
+    - "20"
+    - "5"
+    - "2009-01-16"
+    - "1"
+  - - "8"
+    - "1"
+    - "1"
+    - Dominguez
+    - Maria Luisa
+    - "1324567890"
+    - Compraventa
+    - Compraventa
+    - "2008-12-29"
+    - 
+    - "6"
+    - "4"
+    - "1"
+    - 
+    - "1"
+    - "183"
+    - 2008-12-03 14:19:07
+    - 2009-01-08 16:38:50
+    - "2008-12-03"
+    - "40"
+    - "0"
+    - "2009-02-09"
+    - "1"
+  - - "9"
+    - "1"
+    - "1"
+    - Gonsalez Herrera
+    - Maria Soledad
+    - "1712345678"
+    - Compraventa
+    - rhrhrhh
+    - "2008-12-29"
+    - 
+    - "5"
+    - "1"
+    - "1"
+    - 
+    - "1"
+    - "191"
+    - 2008-12-03 14:37:11
+    - 2009-01-08 16:38:50
+    - "2008-12-03"
+    - "20"
+    - "0"
+    - "2009-01-16"
+    - "1"
+  - - "10"
+    - "1"
+    - "2"
+    - Coquelet
+    - Arnaud
+    - "1724319494"
+    - Compraventa del banco guayaquil
+    - Compraventa del banco guayaquil
+    - "2009-01-01"
+    - 
+    - "5"
+    - "1"
+    - "1"
+    - 
+    - "1"
+    - "78"
+    - 2008-12-07 08:47:02
+    - 2009-01-08 16:29:34
+    - "2008-12-07"
+    - "20"
+    - "0"
+    - "2009-01-13"
+    - "1"
+  - - "11"
+    - "1"
+    - "1"
+    - Prado Troya
+    - Nicolas Felipe
+    - "1722339999"
+    - Compraventa
+    - Compraventa
+    - "2009-01-01"
+    - 
+    - "4"
+    - "4"
+    - "1"
+    - 
+    - "1"
+    - "151"
+    - 2008-12-07 17:37:29
+    - 2009-01-08 16:38:50
+    - "2008-12-07"
+    - "0"
+    - "0"
+    - "2008-12-08"
+    - "1"
+  - - "12"
+    - "1"
+    - "1"
+    - Hidalgo
+    - Juan Marco
+    - "1234564523"
+    - Compraventa
+    - una compraventa
+    - "2009-01-05"
+    - 
+    - "4"
+    - "4"
+    - "1"
+    - 
+    - "1"
+    - "90"
+    - 2008-12-09 13:54:49
+    - 2009-01-08 16:38:50
+    - "2008-12-09"
+    - "0"
+    - "0"
+    - "2008-12-10"
+    - "1"
+  - - "13"
+    - "1"
+    - "1"
+    - Munoz
+    - Miguel
+    - "1723419988"
+    - Compraventa del tereno
+    - |-
+      Compraventa del tereno en Nayon
+      Direccion:
+    - "2009-02-02"
+    - 
+    - "4"
+    - "4"
+    - "1"
+    - 
+    - "1"
+    - "3"
+    - 2009-01-08 18:48:52
+    - 2009-01-08 18:49:22
+    - "2009-01-08"
+    - "0"
+    - "0"
+    - "2009-01-09"
+    - "5"
+  - - "14"
+    - "1"
+    - "1"
+    - Coquelet
+    - Arnaud
+    - "12345675678"
+    - Cvuim
+    - lsmflamlamkldf
+    - "2009-02-02"
+    - 
+    - "4"
+    - "4"
+    - "1"
+    - 
+    - "1"
+    - "2"
+    - 2009-01-08 21:08:13
+    - 2009-01-08 21:12:07
+    - "2009-01-08"
+    - "0"
+    - "0"
+    - "2009-01-09"
+    - "5"
+
+--- 
+journal_details: 
+  columns: 
+  - id
+  - journal_id
+  - property
+  - prop_key
+  - old_value
+  - value
+  records: 
+  - - "1"
+    - "1"
+    - attr
+    - status_id
+    - "1"
+    - "7"
+  - - "2"
+    - "2"
+    - attr
+    - status_id
+    - "7"
+    - "6"
+  - - "3"
+    - "2"
+    - attr
+    - estimated_hours
+    - 
+    - "12.0"
+  - - "4"
+    - "3"
+    - attr
+    - status_id
+    - "6"
+    - "7"
+  - - "5"
+    - "4"
+    - attr
+    - status_id
+    - "7"
+    - "1"
+  - - "6"
+    - "5"
+    - attr
+    - status_id
+    - "1"
+    - "6"
+  - - "7"
+    - "6"
+    - attr
+    - estimated_hours
+    - "12.0"
+    - "6.0"
+  - - "8"
+    - "7"
+    - attr
+    - status_id
+    - "6"
+    - "7"
+  - - "9"
+    - "8"
+    - attr
+    - estimated_hours
+    - "6.0"
+    - "7.0"
+  - - "10"
+    - "9"
+    - attr
+    - status_id
+    - "7"
+    - "4"
+  - - "11"
+    - "10"
+    - attr
+    - estimated_hours
+    - "7.0"
+    - "4.0"
+  - - "12"
+    - "11"
+    - attr
+    - status_id
+    - "4"
+    - "1"
+  - - "13"
+    - "12"
+    - attr
+    - status_id
+    - "1"
+    - "4"
+  - - "14"
+    - "12"
+    - attr
+    - estimated_hours
+    - "4.0"
+    - "1.0"
+  - - "15"
+    - "13"
+    - attr
+    - status_id
+    - "4"
+    - "7"
+  - - "16"
+    - "13"
+    - attr
+    - estimated_hours
+    - "1.0"
+    - "4.0"
+  - - "17"
+    - "14"
+    - attr
+    - estimated_hours
+    - "4.0"
+    - "7.0"
+  - - "18"
+    - "15"
+    - attr
+    - status_id
+    - "7"
+    - "1"
+  - - "19"
+    - "16"
+    - attr
+    - estimated_hours
+    - "7.0"
+    - "1.0"
+  - - "20"
+    - "17"
+    - attr
+    - status_id
+    - "1"
+    - "7"
+  - - "21"
+    - "18"
+    - attr
+    - estimated_hours
+    - "1.0"
+    - "7.0"
+  - - "22"
+    - "19"
+    - attr
+    - status_id
+    - "7"
+    - "5"
+  - - "23"
+    - "20"
+    - attr
+    - estimated_hours
+    - "7.0"
+    - "5.0"
+  - - "24"
+    - "21"
+    - attr
+    - status_id
+    - "5"
+    - "1"
+  - - "25"
+    - "22"
+    - attr
+    - status_id
+    - "1"
+    - "3"
+  - - "26"
+    - "22"
+    - attr
+    - estimated_hours
+    - "5.0"
+    - "1.0"
+  - - "27"
+    - "23"
+    - attr
+    - status_id
+    - "3"
+    - "6"
+  - - "28"
+    - "23"
+    - attr
+    - estimated_hours
+    - "1.0"
+    - "3.0"
+  - - "29"
+    - "24"
+    - attr
+    - status_id
+    - "6"
+    - "5"
+  - - "30"
+    - "24"
+    - attr
+    - estimated_hours
+    - "3.0"
+    - "5.0"
+  - - "31"
+    - "25"
+    - attr
+    - status_id
+    - "5"
+    - "1"
+  - - "32"
+    - "25"
+    - attr
+    - estimated_hours
+    - "5.0"
+    - "1.0"
+  - - "33"
+    - "26"
+    - attr
+    - status_id
+    - "1"
+    - "3"
+  - - "34"
+    - "26"
+    - attr
+    - estimated_hours
+    - "1.0"
+    - "3.0"
+  - - "35"
+    - "27"
+    - attr
+    - status_id
+    - "3"
+    - "7"
+  - - "36"
+    - "27"
+    - attr
+    - estimated_hours
+    - "3.0"
+    - "7.0"
+  - - "37"
+    - "28"
+    - attr
+    - estimated_hours
+    - "7.0"
+    - "24.0"
+  - - "38"
+    - "29"
+    - attr
+    - status_id
+    - "7"
+    - "4"
+  - - "39"
+    - "30"
+    - attr
+    - status_id
+    - "4"
+    - "3"
+  - - "40"
+    - "30"
+    - attr
+    - estimated_hours
+    - "24.0"
+    - "29.0"
+  - - "41"
+    - "31"
+    - attr
+    - estimated_hours
+    - "29.0"
+    - "58.0"
+  - - "42"
+    - "32"
+    - attr
+    - estimated_hours
+    - "58.0"
+    - "87.0"
+  - - "43"
+    - "33"
+    - attr
+    - estimated_hours
+    - "87.0"
+    - "116.0"
+  - - "44"
+    - "34"
+    - attr
+    - status_id
+    - "3"
+    - "1"
+  - - "45"
+    - "34"
+    - attr
+    - estimated_hours
+    - "116.0"
+    - "136.0"
+  - - "46"
+    - "35"
+    - attr
+    - estimated_hours
+    - "136.0"
+    - "156.0"
+  - - "47"
+    - "36"
+    - attr
+    - estimated_hours
+    - "156.0"
+    - "176.0"
+  - - "48"
+    - "37"
+    - attr
+    - estimated_hours
+    - "176.0"
+    - "196.0"
+  - - "49"
+    - "38"
+    - attr
+    - estimated_hours
+    - "196.0"
+    - "216.0"
+  - - "50"
+    - "39"
+    - attr
+    - estimated_hours
+    - "216.0"
+    - "236.0"
+  - - "51"
+    - "40"
+    - attr
+    - estimated_hours
+    - "236.0"
+    - "256.0"
+  - - "52"
+    - "41"
+    - attr
+    - estimated_hours
+    - "256.0"
+    - "276.0"
+  - - "53"
+    - "42"
+    - attr
+    - estimated_hours
+    - "276.0"
+    - "1.0"
+  - - "54"
+    - "43"
+    - attr
+    - status_id
+    - "1"
+    - "7"
+  - - "55"
+    - "43"
+    - attr
+    - estimated_hours
+    - "1.0"
+    - "25.0"
+  - - "56"
+    - "44"
+    - attr
+    - estimated_hours
+    - 
+    - "1.0"
+  - - "57"
+    - "45"
+    - attr
+    - status_id
+    - "1"
+    - "7"
+  - - "58"
+    - "45"
+    - attr
+    - estimated_hours
+    - "1.0"
+    - "25.0"
+  - - "59"
+    - "46"
+    - attr
+    - status_id
+    - "7"
+    - "4"
+  - - "60"
+    - "46"
+    - attr
+    - estimated_hours
+    - "25.0"
+    - "46.0"
+  - - "61"
+    - "47"
+    - attr
+    - status_id
+    - "4"
+    - "7"
+  - - "62"
+    - "47"
+    - attr
+    - estimated_hours
+    - "46.0"
+    - "70.0"
+  - - "63"
+    - "48"
+    - attr
+    - done_ratio
+    - "0"
+    - "80"
+  - - "64"
+    - "48"
+    - attr
+    - estimated_hours
+    - "70.0"
+    - "1.0"
+  - - "65"
+    - "49"
+    - attr
+    - done_ratio
+    - "0"
+    - "80"
+  - - "66"
+    - "49"
+    - attr
+    - estimated_hours
+    - "25.0"
+    - "1.0"
+  - - "67"
+    - "50"
+    - attr
+    - status_id
+    - "7"
+    - "5"
+  - - "68"
+    - "50"
+    - attr
+    - done_ratio
+    - "80"
+    - "40"
+  - - "69"
+    - "50"
+    - attr
+    - estimated_hours
+    - "1.0"
+    - "23.0"
+  - - "70"
+    - "51"
+    - attr
+    - status_id
+    - "1"
+    - "4"
+  - - "71"
+    - "51"
+    - attr
+    - done_ratio
+    - "0"
+    - "20"
+  - - "72"
+    - "51"
+    - attr
+    - estimated_hours
+    - "0.0"
+    - "21.0"
+  - - "73"
+    - "52"
+    - attr
+    - status_id
+    - "1"
+    - "4"
+  - - "74"
+    - "52"
+    - attr
+    - done_ratio
+    - "0"
+    - "20"
+  - - "75"
+    - "52"
+    - attr
+    - estimated_hours
+    - "0.0"
+    - "21.0"
+  - - "76"
+    - "52"
+    - attr
+    - duestep_date
+    - "2008-12-02"
+    - "2008-12-23"
+  - - "77"
+    - "53"
+    - attr
+    - status_id
+    - "4"
+    - "5"
+  - - "78"
+    - "53"
+    - attr
+    - done_ratio
+    - "20"
+    - "40"
+  - - "79"
+    - "53"
+    - attr
+    - estimated_hours
+    - "21.0"
+    - "43.0"
+  - - "80"
+    - "53"
+    - attr
+    - duestep_date
+    - "2008-12-23"
+    - "2009-01-14"
+  - - "81"
+    - "54"
+    - attr
+    - status_id
+    - "1"
+    - "4"
+  - - "82"
+    - "54"
+    - attr
+    - done_ratio
+    - "0"
+    - "20"
+  - - "83"
+    - "54"
+    - attr
+    - estimated_hours
+    - 
+    - "21.0"
+  - - "84"
+    - "54"
+    - attr
+    - duestep_date
+    - 
+    - 2008-12-01 22:36:06
+  - - "85"
+    - "55"
+    - attr
+    - status_id
+    - "4"
+    - "5"
+  - - "86"
+    - "55"
+    - attr
+    - done_ratio
+    - "20"
+    - "40"
+  - - "87"
+    - "55"
+    - attr
+    - estimated_hours
+    - "21.0"
+    - "2.0"
+  - - "88"
+    - "55"
+    - attr
+    - duestep_date
+    - "2008-12-01"
+    - "2008-12-23"
+  - - "89"
+    - "56"
+    - attr
+    - status_id
+    - "5"
+    - "6"
+  - - "90"
+    - "56"
+    - attr
+    - done_ratio
+    - "40"
+    - "60"
+  - - "91"
+    - "56"
+    - attr
+    - duestep_date
+    - "2008-12-23"
+    - "2009-01-15"
+  - - "92"
+    - "56"
+    - attr
+    - issue_progress
+    - 
+    - "2"
+  - - "93"
+    - "57"
+    - attr
+    - estimated_hours
+    - "43.0"
+    - "2.0"
+  - - "94"
+    - "57"
+    - attr
+    - issue_progress
+    - 
+    - "2"
+  - - "95"
+    - "58"
+    - attr
+    - status_id
+    - "1"
+    - "4"
+  - - "96"
+    - "58"
+    - attr
+    - done_ratio
+    - "0"
+    - "20"
+  - - "97"
+    - "58"
+    - attr
+    - estimated_hours
+    - "0.0"
+    - "2.0"
+  - - "98"
+    - "58"
+    - attr
+    - duestep_date
+    - "2008-12-02"
+    - "2008-12-23"
+  - - "99"
+    - "58"
+    - attr
+    - issue_progress
+    - 
+    - "2"
+  - - "100"
+    - "59"
+    - attr
+    - due_date
+    - "2008-12-26"
+    - "2008-12-01"
+  - - "101"
+    - "59"
+    - attr
+    - estimated_hours
+    - "2.0"
+    - "1.0"
+  - - "102"
+    - "59"
+    - attr
+    - issue_progress
+    - "5"
+    - "1"
+  - - "103"
+    - "60"
+    - attr
+    - client_name
+    - fghujk
+    - Sandoval
+  - - "104"
+    - "60"
+    - attr
+    - client_firstname
+    - fghjkl
+    - Carlos
+  - - "105"
+    - "60"
+    - attr
+    - client_idnumber
+    - "456789"
+    - "1711851053"
+  - - "106"
+    - "60"
+    - attr
+    - subject
+    - fghvbjklm
+    - Escritura Parquadera
+  - - "107"
+    - "61"
+    - attr
+    - client_idnumber
+    - 09876543
+    - "1724319494"
+  - - "108"
+    - "61"
+    - attr
+    - subject
+    - p[oiuftcvb;k
+    - compraventa numero 5
+  - - "109"
+    - "61"
+    - attr
+    - estimated_hours
+    - "2.0"
+    - "5.0"
+  - - "110"
+    - "62"
+    - attr
+    - client_name
+    - abfkbbk
+    - Ortiz
+  - - "111"
+    - "62"
+    - attr
+    - client_firstname
+    - jbkjebfkdwsbvk
+    - Sebastian
+  - - "112"
+    - "62"
+    - attr
+    - client_idnumber
+    - 546890--0987
+    - "1724319999"
+  - - "113"
+    - "62"
+    - attr
+    - subject
+    - yvbk;lm',
+    - compraventa 4
+  - - "114"
+    - "62"
+    - attr
+    - estimated_hours
+    - "21.0"
+    - "5.0"
+  - - "115"
+    - "63"
+    - attr
+    - client_idnumber
+    - "34567890"
+    - "17143194949"
+  - - "116"
+    - "63"
+    - attr
+    - subject
+    - foiwheofw wefonw
+    - compraventa 3
+  - - "117"
+    - "63"
+    - attr
+    - estimated_hours
+    - "2.0"
+    - "5.0"
+  - - "118"
+    - "64"
+    - attr
+    - client_idnumber
+    - "1234789"
+    - "1734319494"
+  - - "119"
+    - "64"
+    - attr
+    - subject
+    - dtyuiokf,psd,
+    - compraventa 2
+  - - "120"
+    - "64"
+    - attr
+    - estimated_hours
+    - "1.0"
+    - "5.0"
+  - - "121"
+    - "65"
+    - attr
+    - status_id
+    - "4"
+    - "3"
+  - - "122"
+    - "65"
+    - attr
+    - done_ratio
+    - "20"
+    - "100"
+  - - "123"
+    - "65"
+    - attr
+    - duestep_date
+    - "2008-12-23"
+    - "2009-01-21"
+  - - "124"
+    - "66"
+    - attr
+    - estimated_hours
+    - "5.0"
+    - "2.0"
+  - - "125"
+    - "67"
+    - attr
+    - status_id
+    - "1"
+    - "4"
+  - - "126"
+    - "67"
+    - attr
+    - done_ratio
+    - "0"
+    - "20"
+  - - "127"
+    - "67"
+    - attr
+    - estimated_hours
+    - "0.0"
+    - "5.0"
+  - - "128"
+    - "67"
+    - attr
+    - duestep_date
+    - "2008-12-04"
+    - "2008-12-25"
+  - - "129"
+    - "67"
+    - attr
+    - issue_progress
+    - "4"
+    - "5"
+  - - "130"
+    - "68"
+    - attr
+    - status_id
+    - "4"
+    - "5"
+  - - "131"
+    - "68"
+    - attr
+    - done_ratio
+    - "20"
+    - "40"
+  - - "132"
+    - "69"
+    - attr
+    - status_id
+    - "5"
+    - "6"
+  - - "133"
+    - "69"
+    - attr
+    - done_ratio
+    - "40"
+    - "60"
+  - - "134"
+    - "71"
+    - attr
+    - status_id
+    - "1"
+    - "4"
+  - - "135"
+    - "71"
+    - attr
+    - done_ratio
+    - "0"
+    - "20"
+  - - "136"
+    - "71"
+    - attr
+    - issue_progress
+    - 
+    - "5"
+  - - "137"
+    - "72"
+    - attr
+    - status_id
+    - "4"
+    - "5"
+  - - "138"
+    - "72"
+    - attr
+    - done_ratio
+    - "20"
+    - "40"
+  - - "139"
+    - "73"
+    - attr
+    - status_id
+    - "5"
+    - "6"
+  - - "140"
+    - "73"
+    - attr
+    - done_ratio
+    - "40"
+    - "60"
+  - - "141"
+    - "74"
+    - attr
+    - status_id
+    - "1"
+    - "4"
+  - - "142"
+    - "74"
+    - attr
+    - done_ratio
+    - "0"
+    - "20"
+  - - "143"
+    - "74"
+    - attr
+    - issue_progress
+    - 
+    - "5"
+  - - "144"
+    - "75"
+    - attr
+    - subject
+    - reh
+    - Compraventa
+  - - "145"
+    - "76"
+    - attr
+    - subject
+    - Escritura Parquadera
+    - Escritura Parquadero
+  - - "146"
+    - "77"
+    - attr
+    - status_id
+    - "4"
+    - "5"
+  - - "147"
+    - "77"
+    - attr
+    - done_ratio
+    - "20"
+    - "40"
+  - - "148"
+    - "78"
+    - attr
+    - status_id
+    - "1"
+    - "4"
+  - - "149"
+    - "78"
+    - attr
+    - done_ratio
+    - "0"
+    - "20"
+  - - "150"
+    - "79"
+    - attr
+    - done_ratio
+    - "60"
+    - "40"
+  - - "151"
+    - "80"
+    - attr
+    - done_ratio
+    - "40"
+    - "20"
+  - - "152"
+    - "81"
+    - attr
+    - done_ratio
+    - "40"
+    - "20"
+  - - "153"
+    - "82"
+    - attr
+    - client_idnumber
+    - rhrehrthh
+    - "1712345678"
+  - - "154"
+    - "82"
+    - attr
+    - done_ratio
+    - "40"
+    - "20"
+  - - "155"
+    - "83"
+    - attr
+    - client_idnumber
+    - "34567890098765"
+    - "1234567890"
+  - - "156"
+    - "84"
+    - attr
+    - client_idnumber
+    - "54678906754"
+    - "1324567890"
+  - - "157"
+    - "85"
+    - attr
+    - client_idnumber
+    - "17143194949"
+    - "1714319494"
+  - - "158"
+    - "85"
+    - attr
+    - done_ratio
+    - "60"
+    - "40"
+  - - "159"
+    - "86"
+    - attr
+    - client_name
+    - Prado
+    - Prado Troya
+  - - "160"
+    - "86"
+    - attr
+    - client_firstname
+    - Nicolas
+    - Nicolas Felipe
+  - - "161"
+    - "87"
+    - attr
+    - client_name
+    - rjyerreherh
+    - Gonsales Herrera
+  - - "162"
+    - "87"
+    - attr
+    - client_firstname
+    - hh
+    - Maria Soledad
+  - - "163"
+    - "88"
+    - attr
+    - client_name
+    - ttrhtrh
+    - Domingues
+  - - "164"
+    - "88"
+    - attr
+    - client_firstname
+    - ryeheyhtd
+    - Maria Luisa
+  - - "165"
+    - "88"
+    - attr
+    - subject
+    - thyjtujtujrtuj rjru jru
+    - Compraventa
+  - - "166"
+    - "89"
+    - attr
+    - done_ratio
+    - "20"
+    - "0"
+  - - "167"
+    - "90"
+    - attr
+    - status_id
+    - "4"
+    - "5"
+  - - "168"
+    - "90"
+    - attr
+    - done_ratio
+    - "0"
+    - "20"
+  - - "169"
+    - "91"
+    - attr
+    - status_id
+    - "5"
+    - "6"
+  - - "170"
+    - "91"
+    - attr
+    - done_ratio
+    - "20"
+    - "40"
+  - - "171"
+    - "91"
+    - attr
+    - issue_progress
+    - "2"
+    - "4"
+  - - "172"
+    - "92"
+    - attachment
+    - "1"
+    - 
+    - Greg2.txt
+  - - "173"
+    - "92"
+    - attr
+    - done_ratio
+    - "80"
+    - "60"
+  - - "174"
+    - "94"
+    - attr
+    - status_id
+    - "4"
+    - "5"
+
+--- 
+journals: 
+  columns: 
+  - id
+  - journalized_id
+  - journalized_type
+  - user_id
+  - notes
+  - created_on
+  records: 
+  - - "1"
+    - "1"
+    - Issue
+    - "1"
+    - ""
+    - 2008-11-30 14:47:15
+  - - "2"
+    - "1"
+    - Issue
+    - "1"
+    - ""
+    - 2008-12-01 14:45:39
+  - - "3"
+    - "1"
+    - Issue
+    - "1"
+    - ""
+    - 2008-12-01 14:52:19
+  - - "4"
+    - "1"
+    - Issue
+    - "1"
+    - ""
+    - 2008-12-01 14:54:26
+  - - "5"
+    - "1"
+    - Issue
+    - "1"
+    - ""
+    - 2008-12-01 14:56:58
+  - - "6"
+    - "1"
+    - Issue
+    - "1"
+    - ""
+    - 2008-12-01 14:58:07
+  - - "7"
+    - "1"
+    - Issue
+    - "1"
+    - ""
+    - 2008-12-01 14:58:30
+  - - "8"
+    - "1"
+    - Issue
+    - "1"
+    - ""
+    - 2008-12-01 14:58:37
+  - - "9"
+    - "1"
+    - Issue
+    - "1"
+    - ""
+    - 2008-12-01 14:58:58
+  - - "10"
+    - "1"
+    - Issue
+    - "1"
+    - ""
+    - 2008-12-01 14:59:05
+  - - "11"
+    - "1"
+    - Issue
+    - "1"
+    - ""
+    - 2008-12-01 14:59:42
+  - - "12"
+    - "1"
+    - Issue
+    - "1"
+    - ""
+    - 2008-12-01 15:02:05
+  - - "13"
+    - "1"
+    - Issue
+    - "1"
+    - ""
+    - 2008-12-01 15:02:17
+  - - "14"
+    - "1"
+    - Issue
+    - "1"
+    - ""
+    - 2008-12-01 15:02:24
+  - - "15"
+    - "1"
+    - Issue
+    - "1"
+    - ""
+    - 2008-12-01 15:02:36
+  - - "16"
+    - "1"
+    - Issue
+    - "1"
+    - ""
+    - 2008-12-01 15:02:49
+  - - "17"
+    - "1"
+    - Issue
+    - "1"
+    - ""
+    - 2008-12-01 15:03:13
+  - - "18"
+    - "1"
+    - Issue
+    - "1"
+    - ""
+    - 2008-12-01 15:03:24
+  - - "19"
+    - "1"
+    - Issue
+    - "1"
+    - ""
+    - 2008-12-01 15:03:33
+  - - "20"
+    - "1"
+    - Issue
+    - "1"
+    - ""
+    - 2008-12-01 15:03:42
+  - - "21"
+    - "1"
+    - Issue
+    - "1"
+    - ""
+    - 2008-12-01 15:04:28
+  - - "22"
+    - "1"
+    - Issue
+    - "1"
+    - ""
+    - 2008-12-01 15:07:43
+  - - "23"
+    - "1"
+    - Issue
+    - "1"
+    - ""
+    - 2008-12-01 15:07:53
+  - - "24"
+    - "1"
+    - Issue
+    - "1"
+    - ""
+    - 2008-12-01 15:09:08
+  - - "25"
+    - "1"
+    - Issue
+    - "1"
+    - ""
+    - 2008-12-01 15:09:19
+  - - "26"
+    - "1"
+    - Issue
+    - "1"
+    - ""
+    - 2008-12-01 15:09:32
+  - - "27"
+    - "1"
+    - Issue
+    - "1"
+    - ""
+    - 2008-12-01 15:09:48
+  - - "28"
+    - "1"
+    - Issue
+    - "1"
+    - ""
+    - 2008-12-01 15:13:46
+  - - "29"
+    - "1"
+    - Issue
+    - "1"
+    - ""
+    - 2008-12-01 15:13:58
+  - - "30"
+    - "1"
+    - Issue
+    - "1"
+    - ""
+    - 2008-12-01 15:25:12
+  - - "31"
+    - "1"
+    - Issue
+    - "1"
+    - ""
+    - 2008-12-01 15:27:18
+  - - "32"
+    - "1"
+    - Issue
+    - "1"
+    - ""
+    - 2008-12-01 15:27:28
+  - - "33"
+    - "1"
+    - Issue
+    - "1"
+    - ""
+    - 2008-12-01 15:28:32
+  - - "34"
+    - "1"
+    - Issue
+    - "1"
+    - ""
+    - 2008-12-01 15:28:43
+  - - "35"
+    - "1"
+    - Issue
+    - "1"
+    - ""
+    - 2008-12-01 15:29:46
+  - - "36"
+    - "1"
+    - Issue
+    - "1"
+    - ""
+    - 2008-12-01 15:31:07
+  - - "37"
+    - "1"
+    - Issue
+    - "1"
+    - ""
+    - 2008-12-01 15:31:29
+  - - "38"
+    - "1"
+    - Issue
+    - "1"
+    - ""
+    - 2008-12-01 15:32:29
+  - - "39"
+    - "1"
+    - Issue
+    - "1"
+    - ""
+    - 2008-12-01 15:34:54
+  - - "40"
+    - "1"
+    - Issue
+    - "1"
+    - ""
+    - 2008-12-01 15:49:09
+  - - "41"
+    - "1"
+    - Issue
+    - "1"
+    - ""
+    - 2008-12-01 15:49:18
+  - - "42"
+    - "1"
+    - Issue
+    - "1"
+    - ""
+    - 2008-12-01 16:55:54
+  - - "43"
+    - "1"
+    - Issue
+    - "1"
+    - ""
+    - 2008-12-01 16:56:16
+  - - "44"
+    - "2"
+    - Issue
+    - "1"
+    - ""
+    - 2008-12-01 17:10:59
+  - - "45"
+    - "2"
+    - Issue
+    - "1"
+    - ""
+    - 2008-12-01 17:11:19
+  - - "46"
+    - "2"
+    - Issue
+    - "1"
+    - ""
+    - 2008-12-01 17:13:55
+  - - "47"
+    - "2"
+    - Issue
+    - "1"
+    - ""
+    - 2008-12-01 17:14:14
+  - - "48"
+    - "2"
+    - Issue
+    - "1"
+    - ""
+    - 2008-12-01 17:24:28
+  - - "49"
+    - "1"
+    - Issue
+    - "1"
+    - ""
+    - 2008-12-01 17:27:06
+  - - "50"
+    - "1"
+    - Issue
+    - "1"
+    - ""
+    - 2008-12-01 17:27:39
+  - - "51"
+    - "4"
+    - Issue
+    - "1"
+    - ""
+    - 2008-12-01 17:47:52
+  - - "52"
+    - "5"
+    - Issue
+    - "1"
+    - ""
+    - 2008-12-01 17:51:24
+  - - "53"
+    - "5"
+    - Issue
+    - "1"
+    - ""
+    - 2008-12-01 17:53:56
+  - - "54"
+    - "3"
+    - Issue
+    - "1"
+    - ""
+    - 2008-12-01 22:35:45
+  - - "55"
+    - "3"
+    - Issue
+    - "1"
+    - ""
+    - 2008-12-01 23:36:33
+  - - "56"
+    - "3"
+    - Issue
+    - "1"
+    - ""
+    - 2008-12-01 23:40:27
+  - - "57"
+    - "5"
+    - Issue
+    - "1"
+    - ""
+    - 2008-12-01 23:41:19
+  - - "58"
+    - "6"
+    - Issue
+    - "1"
+    - ""
+    - 2008-12-01 23:49:28
+  - - "59"
+    - "6"
+    - Issue
+    - "1"
+    - ""
+    - 2008-12-02 09:51:20
+  - - "60"
+    - "6"
+    - Issue
+    - "1"
+    - ""
+    - 2008-12-02 12:43:31
+  - - "61"
+    - "5"
+    - Issue
+    - "1"
+    - ""
+    - 2008-12-02 12:44:58
+  - - "62"
+    - "4"
+    - Issue
+    - "1"
+    - ""
+    - 2008-12-02 12:45:35
+  - - "63"
+    - "3"
+    - Issue
+    - "1"
+    - ""
+    - 2008-12-02 12:47:03
+  - - "64"
+    - "2"
+    - Issue
+    - "1"
+    - ""
+    - 2008-12-02 12:48:08
+  - - "65"
+    - "6"
+    - Issue
+    - "1"
+    - ""
+    - 2008-12-02 12:48:36
+  - - "66"
+    - "5"
+    - Issue
+    - "1"
+    - una nota
+    - 2008-12-05 12:58:49
+  - - "67"
+    - "7"
+    - Issue
+    - "1"
+    - ""
+    - 2008-12-03 13:27:52
+  - - "68"
+    - "7"
+    - Issue
+    - "1"
+    - ""
+    - 2008-12-03 13:55:41
+  - - "69"
+    - "1"
+    - Issue
+    - "1"
+    - ""
+    - 2008-12-03 14:00:35
+  - - "70"
+    - "1"
+    - Issue
+    - "1"
+    - Una nota de prueba
+    - 2008-12-03 14:02:02
+  - - "71"
+    - "8"
+    - Issue
+    - "1"
+    - ""
+    - 2008-12-03 14:19:39
+  - - "72"
+    - "8"
+    - Issue
+    - "1"
+    - ""
+    - 2008-12-03 14:32:25
+  - - "73"
+    - "8"
+    - Issue
+    - "1"
+    - ""
+    - 2008-12-03 14:35:42
+  - - "74"
+    - "9"
+    - Issue
+    - "1"
+    - ""
+    - 2008-12-03 14:38:05
+  - - "75"
+    - "9"
+    - Issue
+    - "1"
+    - ""
+    - 2008-12-03 14:42:11
+  - - "76"
+    - "6"
+    - Issue
+    - "1"
+    - ""
+    - 2008-12-03 14:47:58
+  - - "77"
+    - "9"
+    - Issue
+    - "1"
+    - ""
+    - 2008-12-07 09:08:43
+  - - "78"
+    - "10"
+    - Issue
+    - "1"
+    - ""
+    - 2008-12-07 16:46:21
+  - - "79"
+    - "8"
+    - Issue
+    - "4"
+    - ""
+    - 2008-12-07 18:45:58
+  - - "80"
+    - "7"
+    - Issue
+    - "4"
+    - ""
+    - 2008-12-07 18:47:08
+  - - "81"
+    - "5"
+    - Issue
+    - "4"
+    - ""
+    - 2008-12-07 18:47:36
+  - - "82"
+    - "9"
+    - Issue
+    - "1"
+    - ""
+    - 2008-12-09 12:05:37
+  - - "83"
+    - "7"
+    - Issue
+    - "1"
+    - ""
+    - 2008-12-09 12:06:08
+  - - "84"
+    - "8"
+    - Issue
+    - "1"
+    - ""
+    - 2008-12-09 12:06:35
+  - - "85"
+    - "3"
+    - Issue
+    - "1"
+    - ""
+    - 2008-12-09 12:07:04
+  - - "86"
+    - "11"
+    - Issue
+    - "1"
+    - ""
+    - 2008-12-09 12:07:27
+  - - "87"
+    - "9"
+    - Issue
+    - "1"
+    - ""
+    - 2008-12-09 12:08:00
+  - - "88"
+    - "8"
+    - Issue
+    - "1"
+    - ""
+    - 2008-12-09 12:08:33
+  - - "89"
+    - "4"
+    - Issue
+    - "1"
+    - ""
+    - 2008-12-09 13:24:14
+  - - "90"
+    - "4"
+    - Issue
+    - "4"
+    - ""
+    - 2008-12-09 13:24:55
+  - - "91"
+    - "4"
+    - Issue
+    - "4"
+    - ""
+    - 2008-12-09 13:25:55
+  - - "92"
+    - "2"
+    - Issue
+    - "1"
+    - ""
+    - 2008-12-09 14:07:14
+  - - "93"
+    - "9"
+    - Issue
+    - "3"
+    - nota de un cliente
+    - 2008-12-09 21:55:49
+  - - "94"
+    - "10"
+    - Issue
+    - "1"
+    - ""
+    - 2009-01-08 16:29:34
+
+--- 
+members: 
+  columns: 
+  - id
+  - user_id
+  - project_id
+  - role_id
+  - created_on
+  - mail_notification
+  records: 
+  - - "1"
+    - "1"
+    - "1"
+    - "3"
+    - 2008-11-28 13:52:52
+    - false
+  - - "2"
+    - "1"
+    - "2"
+    - "3"
+    - 2008-12-07 08:28:25
+    - false
+  - - "3"
+    - "3"
+    - "1"
+    - "4"
+    - 2008-12-07 09:06:24
+    - false
+  - - "4"
+    - "4"
+    - "1"
+    - "5"
+    - 2008-12-07 18:35:56
+    - false
+  - - "5"
+    - "4"
+    - "2"
+    - "5"
+    - 2008-12-09 21:58:06
+    - false
+  - - "6"
+    - "5"
+    - "2"
+    - "3"
+    - 2009-01-08 18:01:12
+    - false
+  - - "7"
+    - "5"
+    - "1"
+    - "3"
+    - 2009-01-08 18:01:35
+    - false
+
+--- 
+projects: 
+  columns: 
+  - id
+  - name
+  - description
+  - email
+  - homepage
+  - is_public
+  - parent_id
+  - projects_count
+  - created_on
+  - updated_on
+  - identifier
+  - status
+  records: 
+  - - "1"
+    - BANCO PICHINCHA
+    - BANCO PICHINCHA
+    - arnaud.coquelet@telalca.com
+    - ""
+    - false
+    - 
+    - "0"
+    - 2008-11-28 13:47:35
+    - 2008-12-03 13:01:38
+    - bancopichincha
+    - "1"
+  - - "2"
+    - BANCO GUAYAQUIL
+    - ""
+    - arcoquel@gmail.com
+    - ""
+    - false
+    - 
+    - "0"
+    - 2008-12-07 08:27:56
+    - 2008-12-07 08:27:56
+    - bancoguayaquil
+    - "1"
+
+--- 
+projects_trackers: 
+  columns: 
+  - project_id
+  - tracker_id
+  records: 
+  - - "1"
+    - "1"
+  - - "1"
+    - "2"
+  - - "2"
+    - "1"
+  - - "2"
+    - "2"
+
+--- 
+roles: 
+  columns: 
+  - id
+  - name
+  - position
+  - assignable
+  - builtin
+  - permissions
+  records: 
+  - - "1"
+    - Non member
+    - "1"
+    - true
+    - "1"
+    - 
+  - - "2"
+    - Anonymous
+    - "2"
+    - true
+    - "2"
+    - 
+  - - "3"
+    - Supervisor
+    - "3"
+    - true
+    - "0"
+    - |
+      --- 
+      - :edit_project
+      - :select_project_modules
+      - :manage_members
+      - :manage_versions
+      - :manage_boards
+      - :add_messages
+      - :edit_messages
+      - :edit_own_messages
+      - :delete_messages
+      - :delete_own_messages
+      - :log_cost
+      - :view_cost_entries
+      - :edit_cost_entries
+      - :edit_own_cost_entries
+      - :manage_documents
+      - :view_documents
+      - :manage_files
+      - :view_files
+      - :manage_categories
+      - :add_issues
+      - :edit_issues
+      - :view_private_information
+      - :view_history
+      - :edit_private_information
+      - :manage_issue_relations
+      - :add_issue_notes
+      - :edit_issue_notes
+      - :edit_own_issue_notes
+      - :move_issues
+      - :delete_issues
+      - :manage_public_queries
+      - :save_queries
+      - :view_gantt
+      - :view_calendar
+      - :view_issue_watchers
+      - :add_issue_watchers
+      - :manage_news
+      - :comment_news
+      - :manage_repository
+      - :browse_repository
+      - :view_changesets
+      - :commit_access
+      - :log_time
+      - :view_time_entries
+      - :edit_time_entries
+      - :edit_own_time_entries
+      - :manage_wiki
+      - :rename_wiki_pages
+      - :delete_wiki_pages
+      - :view_wiki_pages
+      - :view_wiki_edits
+      - :edit_wiki_pages
+      - :delete_wiki_pages_attachments
+      - :protect_wiki_pages
+
+  - - "4"
+    - Cliente
+    - "5"
+    - false
+    - "0"
+    - |
+      --- 
+      - :add_issue_notes
+
+  - - "5"
+    - Agente
+    - "4"
+    - true
+    - "0"
+    - |
+      --- 
+      - :log_cost
+      - :view_cost_entries
+      - :edit_own_cost_entries
+      - :edit_issues
+      - :view_private_information
+      - :view_history
+      - :edit_issue_notes
+      - :edit_own_issue_notes
+      - :view_gantt
+      - :view_calendar
+
+
+--- 
+settings: 
+  columns: 
+  - id
+  - name
+  - value
+  - updated_on
+  records: 
+  - - "1"
+    - issue_list_default_columns
+    - |
+      --- 
+      - client_idnumber
+      - client_name
+      - client_firstname
+      - subject
+      - status
+      - done_ratio
+      - due_date
+
+    - 2009-01-08 18:25:18
+  - - "2"
+    - display_subprojects_issues
+    - "1"
+    - 2008-11-28 17:03:11
+  - - "3"
+    - cross_project_issue_relations
+    - "0"
+    - 2008-11-28 17:03:11
+  - - "4"
+    - issues_export_limit
+    - "500"
+    - 2008-11-28 17:03:11
+  - - "5"
+    - welcome_text
+    - Bienvenido en el sistema de tratamiento del *Estudio Juridico Prado*
+    - 2008-12-09 18:55:35
+  - - "6"
+    - per_page_options
+    - 25, 50, 100
+    - 2008-12-01 17:56:59
+  - - "7"
+    - host_name
+    - localhost:3000
+    - 2008-12-01 17:56:59
+  - - "8"
+    - text_formatting
+    - textile
+    - 2008-12-01 17:56:59
+  - - "9"
+    - time_format
+    - ""
+    - 2008-12-01 17:56:59
+  - - "10"
+    - activity_days_default
+    - "30"
+    - 2008-12-01 17:56:59
+  - - "11"
+    - default_language
+    - es
+    - 2008-12-09 20:55:27
+  - - "12"
+    - date_format
+    - "%d/%m/%Y"
+    - 2008-12-01 17:56:59
+  - - "13"
+    - wiki_compression
+    - "0"
+    - 2008-12-01 17:56:59
+  - - "14"
+    - feeds_limit
+    - "15"
+    - 2008-12-01 17:56:59
+  - - "15"
+    - gravatar_enabled
+    - "0"
+    - 2008-12-01 17:56:59
+  - - "16"
+    - protocol
+    - http
+    - 2008-12-01 17:57:00
+  - - "17"
+    - user_format
+    - firstname_lastname
+    - 2008-12-01 17:57:00
+  - - "18"
+    - attachment_max_size
+    - "5120"
+    - 2008-12-01 17:57:00
+  - - "19"
+    - app_title
+    - Estudio Juridico Prado
+    - 2008-12-07 18:41:03
+  - - "20"
+    - ui_theme
+    - ""
+    - 2008-12-09 18:53:01
+  - - "21"
+    - plain_text_mail
+    - "0"
+    - 2008-12-05 12:56:09
+  - - "22"
+    - bcc_recipients
+    - "0"
+    - 2008-12-03 14:10:21
+  - - "23"
+    - notified_events
+    - |+
+      --- []
+      
+    - 2008-12-07 08:59:38
+  - - "24"
+    - mail_from
+    - arnaud.coquelet@telalca.com
+    - 2008-12-05 12:56:09
+  - - "25"
+    - emails_footer
+    - |-
+      You have received this notification because you have either subscribed to it, or are involved in it.
+      To change your notification preferences, please click here: http://localhost:3000/
+    - 2008-12-07 08:59:38
+
+--- 
+tokens: 
+  columns: 
+  - id
+  - user_id
+  - action
+  - value
+  - created_on
+  records: 
+  - - "1"
+    - "1"
+    - feeds
+    - OYZkdhKwrwEdqrdqK5kNf5wjXpnsHjwXqBcsQahU
+    - 2008-11-28 13:46:57
+  - - "2"
+    - "1"
+    - feeds
+    - ezs25WPvrPSJaW736ffAAvGaqOGPR4OgC6qgdpzT
+    - 2008-11-28 13:46:57
+  - - "3"
+    - "3"
+    - feeds
+    - ZbCqUHfusnmyYEoeGbLTCxxtXPlxyOLqR7MwRhsz
+    - 2008-12-07 09:06:38
+  - - "4"
+    - "3"
+    - feeds
+    - Edo66n7kDbt0pXxGh8IcRcOKNUtjPjFwbgSalGoC
+    - 2008-12-07 09:06:38
+  - - "5"
+    - "4"
+    - feeds
+    - SnYZ72Qf41Q7wbkC6N3th7bb4rj3BKbeydbNaGlD
+    - 2008-12-07 18:45:15
+  - - "6"
+    - "4"
+    - feeds
+    - sa8C2P1KGmBa8EptN6DnCfH7mjnFFEcWRbUcCcFb
+    - 2008-12-07 18:45:15
+  - - "7"
+    - "5"
+    - feeds
+    - GO66NaGmSsPh8qRphdVnpYadzyxaTiIAxxsap6jx
+    - 2009-01-08 18:03:13
+  - - "8"
+    - "5"
+    - feeds
+    - 0ViCqY7JFZwo8iwYAylcQN3zaJ3gaqAt24IzOZ2A
+    - 2009-01-08 18:03:13
+
+--- 
+trackers: 
+  columns: 
+  - id
+  - name
+  - duration
+  - is_in_chlog
+  - position
+  - is_in_roadmap
+  records: 
+  - - "1"
+    - COMPRAVENTA
+    - "25"
+    - true
+    - "1"
+    - true
+  - - "2"
+    - HIPOTECA
+    - "15"
+    - true
+    - "2"
+    - true
+
+--- 
+user_preferences: 
+  columns: 
+  - id
+  - user_id
+  - others
+  - hide_mail
+  - time_zone
+  records: 
+  - - "1"
+    - "1"
+    - |+
+      --- 
+      :gantt_zoom: 4
+      :gantt_months: 6
+      :my_page_layout: 
+        left: []
+      
+        top: 
+        - issuesassignedtome
+        - issuesreportedbyme
+        right: []
+      
+    - false
+    - 
+  - - "2"
+    - "3"
+    - |+
+      --- {}
+      
+    - false
+    - 
+  - - "3"
+    - "4"
+    - |
+      --- 
+      :my_page_layout: 
+        left: []
+      
+        right: []
+      
+        top: 
+        - issuesassignedtome
+
+    - false
+    - 
+
+--- 
+users: 
+  columns: 
+  - id
+  - login
+  - hashed_password
+  - firstname
+  - lastname
+  - mail
+  - mail_notification
+  - admin
+  - status
+  - last_login_on
+  - language
+  - auth_source_id
+  - created_on
+  - updated_on
+  - type
+  records: 
+  - - "1"
+    - admin
+    - d033e22ae348aeb5660fc2140aec35850c4da997
+    - Redmine
+    - Admin
+    - arnaud.coquelet@telalca.com
+    - true
+    - true
+    - "1"
+    - 2009-01-08 21:04:23
+    - es
+    - 
+    - 2008-11-28 13:45:32
+    - 2009-01-08 21:04:23
+    - User
+  - - "2"
+    - ""
+    - ""
+    - ""
+    - Anonymous
+    - ""
+    - false
+    - false
+    - "0"
+    - 
+    - ""
+    - 
+    - 2008-11-28 13:46:51
+    - 2008-11-28 13:46:51
+    - AnonymousUser
+  - - "3"
+    - cliente
+    - d94019fd760a71edf11844bb5c601a4de95aacaf
+    - Arnaud
+    - Coquelet
+    - arcoquel@gmail.com
+    - false
+    - false
+    - "1"
+    - 2009-01-08 21:12:43
+    - es
+    - 
+    - 2008-12-07 09:04:38
+    - 2009-01-08 21:12:43
+    - 
+  - - "4"
+    - mjprado
+    - e3efc9d6b0f6729adc79f286d14beab91e5c07f2
+    - Maria Jose
+    - Prado
+    - mjprado@ejprado.com
+    - false
+    - false
+    - "1"
+    - 2009-01-08 21:12:01
+    - es
+    - 
+    - 2008-12-07 18:34:27
+    - 2009-01-08 21:12:01
+    - 
+  - - "5"
+    - mprado
+    - 98dd490b322bea900f1f316ec1d8f0b95ef1a209
+    - Mario
+    - Prado
+    - mprado@ejprado.com
+    - false
+    - false
+    - "1"
+    - 2009-01-08 18:03:13
+    - es
+    - 
+    - 2009-01-08 18:00:46
+    - 2009-01-08 18:03:13
+    - 
+
+--- 
+workflows: 
+  columns: 
+  - id
+  - tracker_id
+  - old_status_id
+  - new_status_id
+  - role_id
+  records: 
+  - - "1"
+    - "1"
+    - "6"
+    - "4"
+    - "3"
+  - - "2"
+    - "1"
+    - "6"
+    - "5"
+    - "3"
+  - - "3"
+    - "1"
+    - "6"
+    - "6"
+    - "3"
+  - - "4"
+    - "1"
+    - "6"
+    - "7"
+    - "3"
+  - - "5"
+    - "1"
+    - "6"
+    - "8"
+    - "3"
+  - - "6"
+    - "1"
+    - "6"
+    - "3"
+    - "3"
+  - - "7"
+    - "1"
+    - "7"
+    - "4"
+    - "3"
+  - - "8"
+    - "1"
+    - "7"
+    - "5"
+    - "3"
+  - - "9"
+    - "1"
+    - "7"
+    - "6"
+    - "3"
+  - - "10"
+    - "1"
+    - "7"
+    - "7"
+    - "3"
+  - - "11"
+    - "1"
+    - "7"
+    - "8"
+    - "3"
+  - - "12"
+    - "1"
+    - "7"
+    - "3"
+    - "3"
+  - - "13"
+    - "1"
+    - "8"
+    - "4"
+    - "3"
+  - - "14"
+    - "1"
+    - "8"
+    - "5"
+    - "3"
+  - - "15"
+    - "1"
+    - "8"
+    - "6"
+    - "3"
+  - - "16"
+    - "1"
+    - "8"
+    - "7"
+    - "3"
+  - - "17"
+    - "1"
+    - "8"
+    - "8"
+    - "3"
+  - - "18"
+    - "1"
+    - "8"
+    - "3"
+    - "3"
+  - - "19"
+    - "1"
+    - "3"
+    - "4"
+    - "3"
+  - - "20"
+    - "1"
+    - "3"
+    - "5"
+    - "3"
+  - - "21"
+    - "1"
+    - "3"
+    - "6"
+    - "3"
+  - - "22"
+    - "1"
+    - "3"
+    - "7"
+    - "3"
+  - - "23"
+    - "1"
+    - "3"
+    - "8"
+    - "3"
+  - - "24"
+    - "1"
+    - "3"
+    - "3"
+    - "3"
+  - - "25"
+    - "1"
+    - "4"
+    - "4"
+    - "3"
+  - - "26"
+    - "1"
+    - "4"
+    - "5"
+    - "3"
+  - - "27"
+    - "1"
+    - "4"
+    - "6"
+    - "3"
+  - - "28"
+    - "1"
+    - "4"
+    - "7"
+    - "3"
+  - - "29"
+    - "1"
+    - "4"
+    - "8"
+    - "3"
+  - - "30"
+    - "1"
+    - "4"
+    - "3"
+    - "3"
+  - - "31"
+    - "1"
+    - "5"
+    - "4"
+    - "3"
+  - - "32"
+    - "1"
+    - "5"
+    - "5"
+    - "3"
+  - - "33"
+    - "1"
+    - "5"
+    - "6"
+    - "3"
+  - - "34"
+    - "1"
+    - "5"
+    - "7"
+    - "3"
+  - - "35"
+    - "1"
+    - "5"
+    - "8"
+    - "3"
+  - - "36"
+    - "1"
+    - "5"
+    - "3"
+    - "3"
+  - - "73"
+    - "2"
+    - "6"
+    - "4"
+    - "3"
+  - - "74"
+    - "2"
+    - "6"
+    - "6"
+    - "3"
+  - - "75"
+    - "2"
+    - "6"
+    - "7"
+    - "3"
+  - - "76"
+    - "2"
+    - "6"
+    - "8"
+    - "3"
+  - - "77"
+    - "2"
+    - "6"
+    - "3"
+    - "3"
+  - - "78"
+    - "2"
+    - "7"
+    - "4"
+    - "3"
+  - - "79"
+    - "2"
+    - "7"
+    - "6"
+    - "3"
+  - - "80"
+    - "2"
+    - "7"
+    - "7"
+    - "3"
+  - - "81"
+    - "2"
+    - "7"
+    - "8"
+    - "3"
+  - - "82"
+    - "2"
+    - "7"
+    - "3"
+    - "3"
+  - - "83"
+    - "2"
+    - "8"
+    - "4"
+    - "3"
+  - - "84"
+    - "2"
+    - "8"
+    - "6"
+    - "3"
+  - - "85"
+    - "2"
+    - "8"
+    - "7"
+    - "3"
+  - - "86"
+    - "2"
+    - "8"
+    - "8"
+    - "3"
+  - - "87"
+    - "2"
+    - "8"
+    - "3"
+    - "3"
+  - - "88"
+    - "2"
+    - "3"
+    - "4"
+    - "3"
+  - - "89"
+    - "2"
+    - "3"
+    - "6"
+    - "3"
+  - - "90"
+    - "2"
+    - "3"
+    - "7"
+    - "3"
+  - - "91"
+    - "2"
+    - "3"
+    - "8"
+    - "3"
+  - - "92"
+    - "2"
+    - "3"
+    - "3"
+    - "3"
+  - - "93"
+    - "2"
+    - "4"
+    - "4"
+    - "3"
+  - - "94"
+    - "2"
+    - "4"
+    - "6"
+    - "3"
+  - - "95"
+    - "2"
+    - "4"
+    - "7"
+    - "3"
+  - - "96"
+    - "2"
+    - "4"
+    - "8"
+    - "3"
+  - - "97"
+    - "2"
+    - "4"
+    - "3"
+    - "3"
+  - - "98"
+    - "1"
+    - "6"
+    - "7"
+    - "5"
+  - - "99"
+    - "1"
+    - "7"
+    - "8"
+    - "5"
+  - - "100"
+    - "1"
+    - "8"
+    - "3"
+    - "5"
+  - - "101"
+    - "1"
+    - "4"
+    - "5"
+    - "5"
+  - - "102"
+    - "1"
+    - "5"
+    - "6"
+    - "5"
+  - - "103"
+    - "2"
+    - "6"
+    - "7"
+    - "5"
+  - - "104"
+    - "2"
+    - "6"
+    - "8"
+    - "5"
+  - - "105"
+    - "2"
+    - "7"
+    - "8"
+    - "5"
+  - - "106"
+    - "2"
+    - "8"
+    - "3"
+    - "5"
+  - - "107"
+    - "2"
+    - "4"
+    - "6"
+    - "5"

@@ -1,0 +1,47 @@
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/!svn/ver/134/trunk/vendor/plugins/ruby-net-ldap-0.0.4/tests
+END
+testldif.rb
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/!svn/ver/134/trunk/vendor/plugins/ruby-net-ldap-0.0.4/tests/testldif.rb
+END
+testldap.rb
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/!svn/ver/134/trunk/vendor/plugins/ruby-net-ldap-0.0.4/tests/testldap.rb
+END
+testem.rb
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/!svn/ver/134/trunk/vendor/plugins/ruby-net-ldap-0.0.4/tests/testem.rb
+END
+testdata.ldif
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/!svn/ver/134/trunk/vendor/plugins/ruby-net-ldap-0.0.4/tests/testdata.ldif
+END
+testfilter.rb
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/!svn/ver/134/trunk/vendor/plugins/ruby-net-ldap-0.0.4/tests/testfilter.rb
+END
+testber.rb
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/!svn/ver/134/trunk/vendor/plugins/ruby-net-ldap-0.0.4/tests/testber.rb
+END
+testpsw.rb
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/!svn/ver/134/trunk/vendor/plugins/ruby-net-ldap-0.0.4/tests/testpsw.rb
+END

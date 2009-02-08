@@ -1,0 +1,17 @@
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/!svn/ver/753/trunk/extra/sample_plugin/app/views/example
+END
+say_hello.rhtml
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/!svn/ver/753/trunk/extra/sample_plugin/app/views/example/say_hello.rhtml
+END
+say_goodbye.rhtml
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/!svn/ver/753/trunk/extra/sample_plugin/app/views/example/say_goodbye.rhtml
+END

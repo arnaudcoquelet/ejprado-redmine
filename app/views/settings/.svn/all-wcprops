@@ -1,0 +1,59 @@
+K 25
+svn:wc:ra_dav:version-url
+V 43
+/svn/!svn/ver/1989/trunk/app/views/settings
+END
+_issues.rhtml
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/!svn/ver/1198/trunk/app/views/settings/_issues.rhtml
+END
+_general.rhtml
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/!svn/ver/1989/trunk/app/views/settings/_general.rhtml
+END
+_authentication.rhtml
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/!svn/ver/1151/trunk/app/views/settings/_authentication.rhtml
+END
+_mail_handler.rhtml
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/!svn/ver/1584/trunk/app/views/settings/_mail_handler.rhtml
+END
+plugin.rhtml
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/!svn/ver/837/trunk/app/views/settings/plugin.rhtml
+END
+edit.rhtml
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/!svn/ver/1293/trunk/app/views/settings/edit.rhtml
+END
+_repositories.rhtml
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/!svn/ver/1767/trunk/app/views/settings/_repositories.rhtml
+END
+_notifications.rhtml
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/!svn/ver/1943/trunk/app/views/settings/_notifications.rhtml
+END
+_projects.rhtml
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/!svn/ver/1777/trunk/app/views/settings/_projects.rhtml
+END

@@ -1,0 +1,15 @@
+<%= error_messages_for 'accounting_status' %>
+
+<div class="box">
+<!--[form:accounting_status]-->
+<p><label for="accounting_status_name"><%=l(:field_name)%><span class="required"> *</span></label>
+<%= text_field 'accounting_status', 'name'  %></p>
+
+<p><label for="accounting_status_is_closed"><%=l(:field_is_closed)%></label>
+<%= check_box 'accounting_status', 'is_closed' %></p>
+
+<p><label for="accounting_status_is_default"><%=l(:field_is_default)%></label>
+<%= check_box 'accounting_status', 'is_default' %></p>
+
+<!--[eoform:accounting_status]-->
+</div>

@@ -1,0 +1,149 @@
+K 25
+svn:wc:ra_dav:version-url
+V 41
+/svn/!svn/ver/2030/trunk/app/views/issues
+END
+show.rfpdf
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/!svn/ver/2030/trunk/app/views/issues/show.rfpdf
+END
+_relations.rhtml
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/!svn/ver/747/trunk/app/views/issues/_relations.rhtml
+END
+_history.rhtml
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/!svn/ver/2000/trunk/app/views/issues/_history.rhtml
+END
+bulk_edit.rhtml
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/!svn/ver/1786/trunk/app/views/issues/bulk_edit.rhtml
+END
+_form.rhtml
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/!svn/ver/1786/trunk/app/views/issues/_form.rhtml
+END
+changes.rxml
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/!svn/ver/1185/trunk/app/views/issues/changes.rxml
+END
+_form_update.rhtml
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/!svn/ver/1129/trunk/app/views/issues/_form_update.rhtml
+END
+move.rhtml
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/!svn/ver/1134/trunk/app/views/issues/move.rhtml
+END
+index.rhtml
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/!svn/ver/1496/trunk/app/views/issues/index.rhtml
+END
+context_menu.rhtml
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/!svn/ver/1765/trunk/app/views/issues/context_menu.rhtml
+END
+_sidebar.rhtml
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/!svn/ver/1873/trunk/app/views/issues/_sidebar.rhtml
+END
+calendar.rhtml
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/!svn/ver/1798/trunk/app/views/issues/calendar.rhtml
+END
+_list.rhtml
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/!svn/ver/1667/trunk/app/views/issues/_list.rhtml
+END
+gantt.rhtml
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/!svn/ver/1798/trunk/app/views/issues/gantt.rhtml
+END
+show.rhtml
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/!svn/ver/2000/trunk/app/views/issues/show.rhtml
+END
+_form_custom_fields.rhtml
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/!svn/ver/1731/trunk/app/views/issues/_form_custom_fields.rhtml
+END
+index.rfpdf
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/!svn/ver/887/trunk/app/views/issues/index.rfpdf
+END
+_list_simple.rhtml
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/!svn/ver/1130/trunk/app/views/issues/_list_simple.rhtml
+END
+_changesets.rhtml
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/!svn/ver/2006/trunk/app/views/issues/_changesets.rhtml
+END
+_edit.rhtml
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/!svn/ver/1689/trunk/app/views/issues/_edit.rhtml
+END
+edit.rhtml
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/!svn/ver/1129/trunk/app/views/issues/edit.rhtml
+END
+gantt.rfpdf
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/!svn/ver/1797/trunk/app/views/issues/gantt.rfpdf
+END
+destroy.rhtml
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/!svn/ver/1182/trunk/app/views/issues/destroy.rhtml
+END
+new.rhtml
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/!svn/ver/1322/trunk/app/views/issues/new.rhtml
+END

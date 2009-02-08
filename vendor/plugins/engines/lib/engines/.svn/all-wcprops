@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/!svn/ver/1810/trunk/vendor/plugins/engines/lib/engines
+END
+testing.rb
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/!svn/ver/1654/trunk/vendor/plugins/engines/lib/engines/testing.rb
+END
+plugin.rb
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/!svn/ver/1723/trunk/vendor/plugins/engines/lib/engines/plugin.rb
+END
+assets.rb
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/!svn/ver/1654/trunk/vendor/plugins/engines/lib/engines/assets.rb
+END

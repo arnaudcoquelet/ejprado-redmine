@@ -1,0 +1,94 @@
+<% if @issue.new_record? %>
+<p><%= f.select :tracker_id, @project.trackers.collect {|t| [t.name, t.id]}, :required => true %></p>
+<%= observe_field :issue_tracker_id, :url => { :action => :new },
+                                     :update => :content,
+                                     :with => "Form.serialize('issue-form')" %>
+<hr />
+<% end %>
+
+<% if User.current.allowed_to?(:edit_customer_infos, @project) %>
+	<div class="buyerInfo">
+		<fieldset>
+		<legend><%= l(:field_client_buyer) %></legend>
+		<p><%= f.text_field :client_buyer_name, :size => 40, :required => true %></p>
+		<p><%= f.text_field :client_buyer_firstname, :size => 40, :required => true %></p>
+		<p><%= f.text_field :client_buyer_idnumber, :size => 40, :required => true %></p>
+		</fieldset>
+	</div>
+
+	<% if !@issue.tracker.only_buyer %>
+	<div class="sellerInfo">
+		<fieldset>
+			<legend><%= l(:field_client_seller) %></legend>
+			<p><%= f.text_field :client_seller_name, :size => 40, :required => true %></p>
+			<p><%= f.text_field :client_seller_firstname, :size => 40, :required => true %></p>
+			<p><%= f.text_field :client_seller_idnumber, :size => 40, :required => true %></p>
+		</fieldset>
+	</div>
+	<% end %>
+<% end %>
+
+<p></p>
+<p></p>
+
+<div class="box" id="CheckListBox">
+	<% if User.current.allowed_to?(:edit_customer_infos, @project) %>
+		<fieldset>
+			<legend><%= l(:field_checklist) %></legend>
+			<% @checklist.each do |m| %> 
+		    <label class="floating">
+				<%= check_box_tag 'enabled_checklists[]', m, @issue.element_checked?(m) -%> <%= (m.to_s.humanize) %>
+			</label>
+			<% end %>		
+		</fieldset>
+	<% end %>
+</div>
+
+<p></p>
+<p></p>
+
+<div id="issue_descr_fields" <%= 'style="display:none"' unless @issue.new_record? || @issue.errors.any? %>>
+<p><%= f.text_field :subject, :size => 80, :required => true %></p>
+<p><%= f.text_area :description, :required => true,
+                   :cols => 60,
+                   :rows => (@issue.description.blank? ? 10 : [[10, @issue.description.length / 50].max, 100].min),
+                   :accesskey => accesskey(:edit),
+                   :class => 'wiki-edit' %></p>
+</div>
+
+<% if User.current.allowed_to?(:view_internal_infos, @project) %>
+
+<div class="splitcontentleft">
+<% if @issue.new_record? || @allowed_statuses.any? %>
+	<p><%= f.select :status_id, (@allowed_statuses.collect {|p| [p.name, p.id]}), :required => true %></p>
+<% end %>
+
+<% if User.current.allowed_to?(:edit_internal_infos, @project) %>
+	<% if(false) %>
+		<p><%= f.select :priority_id, (@priorities.collect {|p| [p.name, p.id]}), :required => true %></p>
+	<% end %>
+	<p><%= f.select :assigned_to_id, (@issue.assignable_users.collect {|m| [m.name, m.id]}), :include_blank => true %></p>
+<% end %>
+</div>
+
+
+<div class="splitcontentright">
+<% if User.current.allowed_to?(:edit_internal_infos, @project) %>
+	<% if @issue.new_record? %>
+		<p><%= f.text_field :start_date, :size => 10 %><%= calendar_for('issue_start_date') %></p>
+	<% end %>
+<% end %>
+</div>
+
+<div style="clear:both;"> </div>
+<%= render :partial => 'form_custom_fields' %>
+
+<% end %>
+
+<% if @issue.new_record? %>
+<p><label><%=l(:label_attachment_plural)%></label><%= render :partial => 'attachments/form' %></p>
+<% end %>
+
+<%= call_hook(:view_issues_form_details_bottom, { :issue => @issue, :form => f }) %>
+
+<%= wikitoolbar_for 'issue_description' %>
